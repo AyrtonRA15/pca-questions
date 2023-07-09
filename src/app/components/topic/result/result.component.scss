@@ -32,12 +32,12 @@
 
 .donut-segment {
     transform-origin: center;
-    stroke: #ffab00;
+    stroke: #66BB6A;
 }
 
 .donut-text {
     font-family: Arial, Helvetica, sans-serif;
-    fill: #ffab00;
+    fill: #66BB6A;
 }
 
 .donut-percent {
@@ -56,4 +56,16 @@
     color: #666;
     fill: #666;
     animation: donutfadelong 1s;
+}
+
+.svg-item {
+    &.failed {
+        .donut-segment {
+            stroke: #FF7043;
+        }
+
+        .donut-text {
+            fill: #FF7043;
+        }
+    }
 }

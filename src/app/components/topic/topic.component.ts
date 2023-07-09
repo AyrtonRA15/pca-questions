@@ -25,6 +25,7 @@ export class TopicComponent implements OnInit {
 
   @ViewChildren('chipOpt') chipOpts: QueryList<MatChipOption> | undefined;
   @ViewChild('closeTemplate') closeTemplate: any;
+  @ViewChild('submitTemplate') submitTemplate: any;
 
   question: any = {};
   currentQ = 0;
@@ -44,24 +45,10 @@ export class TopicComponent implements OnInit {
     this.updateQ();
   }
 
-  updateQ(): void {
+  updateQ(i = 0): void {
+    this.currentQ = i;
     this.question = this.topic.questions[this.currentQ];
     this.chipOpts?.toArray()[this.currentQ].select();
-  }
-
-  nextQ(): void {
-    this.currentQ++;
-    this.updateQ();
-  }
-
-  prevQ(): void {
-    this.currentQ--;
-    this.updateQ();
-  }
-
-  chipSelected(i: number): void {
-    this.currentQ = i;
-    this.updateQ();
   }
 
   changeAns(ans: string): void {
@@ -100,30 +87,33 @@ export class TopicComponent implements OnInit {
   }
 
   submit(): void {
-    this.isViewingResults = true;
-    this.totalCorrect = this.ansSelected.filter(
-      (ans: any, i: number) => this.topic.questions[i].ans === ans
-    ).length;
-    // Delete
-    this.totalCorrect = 60;
-    this.score = Math.round(
-      (this.totalCorrect / this.ansSelected.length) * 100
-    );
-    console.log(this.score);
+    const submitDialogRef = this.dialog.open(this.submitTemplate);
+    submitDialogRef.afterClosed().subscribe((submit: boolean) => {
+      if (submit) {
+        this.isViewingResults = true;
+        this.updateQ();
+        this.totalCorrect = this.ansSelected.filter(
+          (ans: any, i: number) => this.topic.questions[i].ans === ans
+        ).length;
+        this.score = Math.round(
+          (this.totalCorrect / this.ansSelected.length) * 100
+        );
 
-    // Show results dialog
-    const dialogConfig = new MatDialogConfig();
-    dialogConfig.disableClose = true;
-    dialogConfig.data = {
-      score: this.score,
-      totalCorrect: this.totalCorrect,
-      totalQ: this.totalQ,
-    };
-    const dialogRef = this.dialog.open(ResultComponent, dialogConfig);
+        // Show results dialog
+        const dialogConfig = new MatDialogConfig();
+        dialogConfig.disableClose = true;
+        dialogConfig.data = {
+          score: this.score,
+          totalCorrect: this.totalCorrect,
+          totalQ: this.totalQ,
+        };
+        const dialogRef = this.dialog.open(ResultComponent, dialogConfig);
 
-    dialogRef.afterClosed().subscribe((viewAnswers: boolean) => {
-      if (!viewAnswers) {
-        this.close(false);
+        dialogRef.afterClosed().subscribe((viewAnswers: boolean) => {
+          if (!viewAnswers) {
+            this.close(false);
+          }
+        });
       }
     });
   }

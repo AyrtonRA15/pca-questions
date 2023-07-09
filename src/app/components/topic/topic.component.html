@@ -16,7 +16,7 @@
         mat-mini-fab
         color="primary"
         aria-label="Previous question"
-        (click)="prevQ()"
+        (click)="updateQ(currentQ - 1)"
         [disabled]="currentQ === 0"
       >
         <mat-icon>arrow_back</mat-icon>
@@ -25,8 +25,8 @@
         mat-mini-fab
         color="primary"
         aria-label="Next question"
-        (click)="nextQ()"
-        [disabled]="currentQ === topic.questions.length - 1"
+        (click)="updateQ(currentQ + 1)"
+        [disabled]="currentQ === totalQ - 1"
       >
         <mat-icon>arrow_forward</mat-icon>
       </button>
@@ -57,7 +57,7 @@
       *ngFor="let q of [].constructor(totalQ); index as i"
       [id]="'chip' + i"
       [highlighted]="ansSelected[i] || mode === 'answers-only'"
-      (selectionChange)="chipSelected(i)"
+      (selectionChange)="updateQ(i)"
       [class.is-active]="currentQ === i"
       [class.is-correct]="showCorrectChip(i)"
       [class.is-wrong]="showWrongChip(i)"
@@ -74,5 +74,15 @@
   <div mat-dialog-actions align="end">
     <button mat-button mat-dialog-close cdkFocusInitial>No</button>
     <button mat-button [mat-dialog-close]="true">Sí</button>
+  </div>
+</ng-template>
+
+<!-- Dialog to confirm submit -->
+<ng-template #submitTemplate>
+  <h1 mat-dialog-title>Finalizar sesión</h1>
+  <div mat-dialog-content>Desea terminar y ver el resultado?</div>
+  <div mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>No</button>
+    <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Sí</button>
   </div>
 </ng-template>
