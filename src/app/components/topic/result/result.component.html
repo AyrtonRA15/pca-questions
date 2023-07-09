@@ -1,0 +1,56 @@
+<h2 mat-dialog-title>Resultado</h2>
+<mat-dialog-content class="mat-typography">
+  <div class="container">
+    <div class="svg-item">
+      <svg width="100%" height="100%" viewBox="0 0 40 40" class="donut">
+        <circle
+          class="donut-ring"
+          cx="20"
+          cy="20"
+          r="15.91549430918954"
+          fill="transparent"
+          stroke-width="3.5"
+        ></circle>
+        <circle
+          class="donut-segment"
+          cx="20"
+          cy="20"
+          r="15.91549430918954"
+          fill="transparent"
+          stroke-width="3.5"
+          stroke-dasharray="0 100"
+          stroke-dashoffset="25"
+          [@showProgress]="{
+            value: 'show',
+            params: {
+              strokeDashArrayValue: getStrokeDashArrayValue()
+            }
+          }"
+        ></circle>
+        <g class="donut-text">
+          <text y="50%" transform="translate(0, 2)">
+            <tspan
+              x="50%"
+              text-anchor="middle"
+              class="donut-percent"
+              [@showValue]="'show'"
+            >
+              {{ data.score }}%
+            </tspan>
+          </text>
+          <text y="60%" transform="translate(0, 2)">
+            <tspan x="50%" text-anchor="middle" class="donut-data">
+              {{ data.totalCorrect + " / " + data.totalQ }}
+            </tspan>
+          </text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button [mat-dialog-close]="false">Salir</button>
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial>
+    Ver Respuestas
+  </button>
+</mat-dialog-actions>

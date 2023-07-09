@@ -1,0 +1,78 @@
+<div class="question-container">
+  <app-question
+    [question]="question"
+    [currentQ]="currentQ"
+    [currentAns]="ansSelected[currentQ]"
+    [isViewingResults]="isViewingResults"
+    [mode]="mode"
+    (changeAns)="changeAns($event)"
+  ></app-question>
+
+  <mat-divider></mat-divider>
+
+  <div class="buttons-container">
+    <div class="nav-container">
+      <button
+        mat-mini-fab
+        color="primary"
+        aria-label="Previous question"
+        (click)="prevQ()"
+        [disabled]="currentQ == 0"
+      >
+        <mat-icon>arrow_back</mat-icon>
+      </button>
+      <button
+        mat-mini-fab
+        color="primary"
+        aria-label="Next question"
+        (click)="nextQ()"
+        [disabled]="currentQ == topic.questions.length - 1"
+      >
+        <mat-icon>arrow_forward</mat-icon>
+      </button>
+    </div>
+    <div class="actions-container">
+      <button mat-stroked-button (click)="close(showExitBtn() ? false : true)">
+        {{ showExitBtn() ? "Salir" : "Cancelar" }}
+      </button>
+      <button
+        mat-raised-button
+        color="primary"
+        (click)="submit()"
+        *ngIf="!showExitBtn()"
+      >
+        Finalizar
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="index-container">
+  <mat-chip-listbox
+    aria-label="Question selection"
+    hideSingleSelectionIndicator
+  >
+    <mat-chip-option
+      #chipOpt
+      *ngFor="let q of [].constructor(totalQ); index as i"
+      [id]="'chip' + i"
+      [highlighted]="ansSelected[i] || mode === 'answers-only'"
+      (selectionChange)="chipSelected(i)"
+      [class.is-active]="currentQ == i"
+      [class.is-correct]="showCorrectChip(i)"
+      [class.is-wrong]="showWrongChip(i)"
+    >
+      {{ i + 1 }}
+    </mat-chip-option>
+  </mat-chip-listbox>
+</div>
+
+<!-- Dialog to prevent losing progress -->
+<ng-template #closeTemplate>
+  <h1 mat-dialog-title>Cerrar sesión de estudio</h1>
+  <div mat-dialog-content>Desea salir y perder el avance?</div>
+  <div mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close cdkFocusInitial>No</button>
+    <button mat-button [mat-dialog-close]="true">Sí</button>
+  </div>
+</ng-template>

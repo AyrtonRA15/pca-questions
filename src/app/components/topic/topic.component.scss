@@ -1,0 +1,59 @@
+.results-container,
+.question-container,
+.index-container {
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    margin: 0 8px 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.question-container {
+    .buttons-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        .nav-container {
+            .mdc-fab:not(:last-child) {
+                margin-right: 16px;
+            }
+        }
+
+        .actions-container {
+            .mdc-button:not(:last-child) {
+                margin-right: 16px;
+            }
+        }
+    }
+}
+
+.index-container {
+    .is-correct {
+        --mdc-chip-label-text-color: #212121;
+        background-color: #B9F6CA;
+    }
+    
+    .is-wrong {
+        --mdc-chip-label-text-color: #212121;
+        background-color: #FFCCBC;
+    }
+
+    .is-active {
+        --mdc-chip-label-text-color: white;
+        background-color: #ffab00;
+    }
+}
+
+:host ::ng-deep {
+    .mdc-evolution-chip-set__chips {
+        justify-content: center;
+    }
+
+    .mat-mdc-chip-option button {
+        min-width: 24px;
+    }
+}

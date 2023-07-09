@@ -1,0 +1,32 @@
+<div class="question-container">
+  <div class="question-header">{{ header }}</div>
+
+  <mat-selection-list
+    #opts
+    [multiple]="false"
+    (selectionChange)="optionChange(opts.selectedOptions)"
+    [disabled]="isAnswersOnly() || isViewingResults"
+  >
+    <mat-list-option
+      *ngFor="let opt of options"
+      [value]="opt.id"
+      [selected]="isOptionSelected(opt.id)"
+      togglePosition="before"
+      [class.wrong]="showWrongAnswer(opt.id)"
+      [class.correct]="showCorrectAnswer(opt.id)"
+    >
+      {{ opt.text }}
+    </mat-list-option>
+  </mat-selection-list>
+
+  <ng-container *ngIf="showExplanation()">
+    <mat-divider></mat-divider>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title> Explicación </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p>{{ exp }}</p>
+    </mat-expansion-panel>
+  </ng-container>
+</div>
