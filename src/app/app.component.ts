@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
   topics: any[] = [];
   view: View = GlobalConstants.MENU;
   mode: ViewMode = GlobalConstants.NO_ANSWER;
-  isRandom: boolean = false;
+  isRandom = false;
 
   ngOnInit(): void {
     this.topics = this.data?.topics;

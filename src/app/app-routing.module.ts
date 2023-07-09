@@ -1,5 +1,3 @@
-import { MatIconModule } from '@angular/material/icon';
-
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 

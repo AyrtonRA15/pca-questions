@@ -50,7 +50,7 @@
 
 <div class="content" role="main">
   <!-- Menu -->
-  <ng-container *ngIf="view == 'menu'">
+  <ng-container *ngIf="view === 'menu'">
     <h2>Banco de Preguntas</h2>
 
     <p>Modo de estudio:</p>
@@ -94,7 +94,7 @@
   </ng-container>
 
   <!-- Topic -->
-  <ng-container *ngIf="view == 'topic'">
+  <ng-container *ngIf="view === 'topic'">
     <app-topic
       [topic]="currentTopic"
       [mode]="mode"

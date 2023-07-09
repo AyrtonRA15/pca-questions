@@ -3,7 +3,6 @@ import {
   EventEmitter,
   Input,
   OnChanges,
-  OnInit,
   Output,
   ViewChild,
 } from '@angular/core';
@@ -15,23 +14,21 @@ import { GlobalConstants } from '../../../../global-constants';
   templateUrl: './question.component.html',
   styleUrls: ['./question.component.scss'],
 })
-export class QuestionComponent implements OnInit, OnChanges {
+export class QuestionComponent implements OnChanges {
   @Input() question: any = {};
-  @Input() currentQ: number = 0;
+  @Input() currentQ = 0;
   @Input() currentAns: string | undefined;
   @Input() mode: any;
-  @Input() isViewingResults: boolean = false;
+  @Input() isViewingResults = false;
   @Output() changeAns = new EventEmitter<any>();
 
   @ViewChild('opts') opts: MatSelectionList | undefined;
 
-  header: string = '';
+  header = '';
   options: any[] = [];
-  ans: string = '';
-  exp: string = '';
+  ans = '';
+  exp = '';
   ansSelected: any = undefined;
-
-  ngOnInit(): void {}
 
   ngOnChanges(): void {
     this.opts?.deselectAll();

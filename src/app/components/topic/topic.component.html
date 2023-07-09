@@ -17,7 +17,7 @@
         color="primary"
         aria-label="Previous question"
         (click)="prevQ()"
-        [disabled]="currentQ == 0"
+        [disabled]="currentQ === 0"
       >
         <mat-icon>arrow_back</mat-icon>
       </button>
@@ -26,7 +26,7 @@
         color="primary"
         aria-label="Next question"
         (click)="nextQ()"
-        [disabled]="currentQ == topic.questions.length - 1"
+        [disabled]="currentQ === topic.questions.length - 1"
       >
         <mat-icon>arrow_forward</mat-icon>
       </button>
@@ -58,7 +58,7 @@
       [id]="'chip' + i"
       [highlighted]="ansSelected[i] || mode === 'answers-only'"
       (selectionChange)="chipSelected(i)"
-      [class.is-active]="currentQ == i"
+      [class.is-active]="currentQ === i"
       [class.is-correct]="showCorrectChip(i)"
       [class.is-wrong]="showWrongChip(i)"
     >

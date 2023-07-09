@@ -27,14 +27,14 @@ export class TopicComponent implements OnInit {
   @ViewChild('closeTemplate') closeTemplate: any;
 
   question: any = {};
-  currentQ: number = 0;
-  totalQ: number = 0;
+  currentQ = 0;
+  totalQ = 0;
   ansSelected: any[] = [];
 
   // Results
-  isViewingResults: boolean = false;
-  totalCorrect: number = 0;
-  score: number = 0;
+  isViewingResults = false;
+  totalCorrect = 0;
+  score = 0;
 
   constructor(public dialog: MatDialog) {}
 

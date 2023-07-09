@@ -1,4 +1,4 @@
-import { Component, Inject, OnInit } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 
 import {
   trigger,
@@ -38,13 +38,11 @@ import { MAT_DIALOG_DATA } from '@angular/material/dialog';
     ]),
   ],
 })
-export class ResultComponent implements OnInit {
+export class ResultComponent {
   constructor(
     @Inject(MAT_DIALOG_DATA)
     public data: { score: number; totalCorrect: number; totalQ: number }
   ) {}
-
-  ngOnInit(): void {}
 
   getStrokeDashArrayValue(): string {
     return this.data.score + ', ' + (100 - this.data.score);
