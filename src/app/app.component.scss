@@ -216,18 +216,19 @@ svg#clouds {
 /* Responsive Styles */
 @media screen and (max-width: 767px) {
 
-    .topics-container>*:not(.circle-link),
-    .terminal {
-        width: 100%;
-    }
-
-    .topic-btn:not(.highlight-card) {
+    .topic-btn {
         height: 50px;
         margin: 8px 0;
     }
 
-    .topic-btn.highlight-card span {
-        margin-left: 72px;
+}
+
+@media screen and (max-width: 600px) {
+
+    :host ::ng-deep {
+        .mat-button-toggle-group {
+            flex-direction: column;
+        }
     }
 
 }
