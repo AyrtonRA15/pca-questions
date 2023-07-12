@@ -27,7 +27,7 @@
         .mdc-list-item__content {
             display: flex;
 
-            .mdc-list-item__primary-text {
+            span {
                 word-wrap: break-word;
                 white-space: pre-wrap;
                 text-indent: -0.3em;

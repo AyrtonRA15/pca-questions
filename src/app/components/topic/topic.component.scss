@@ -24,6 +24,8 @@
         }
 
         .actions-container {
+            display: flex;
+
             .mdc-button:not(:last-child) {
                 margin-right: 16px;
             }
@@ -56,4 +58,28 @@
     .mat-mdc-chip-option button {
         min-width: 24px;
     }
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+
+    .question-container {
+        .buttons-container {
+            .actions-container {
+                flex-direction: column;
+    
+                .mdc-button:not(:last-child) {
+                    margin-right: 0;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
+
+    // :host ::ng-deep {
+    //     .mat-button-toggle-group {
+    //         flex-direction: column;
+    //     }
+    // }
+
 }
