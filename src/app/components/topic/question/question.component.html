@@ -14,9 +14,10 @@
       togglePosition="before"
       [class.wrong]="showWrongAnswer(opt.id)"
       [class.correct]="showCorrectAnswer(opt.id)"
-      lines="3"
     >
-      {{ opt.text }}
+      <div class="option-text">
+        {{ opt.text }}
+      </div>
     </mat-list-option>
   </mat-selection-list>
 

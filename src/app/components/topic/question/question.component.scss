@@ -19,18 +19,17 @@
     }
 
     .mat-mdc-list-option {
+        height: auto !important;
+
         .mdc-list-item__start.mat-mdc-list-option-radio-before {
             margin-left: 8px;
             margin-right: 8px;
         }
 
         .mdc-list-item__content {
-            display: flex;
-
-            span {
-                word-wrap: break-word;
-                white-space: pre-wrap;
-                text-indent: -0.3em;
+            .option-text {
+                padding: 4px 0;
+                white-space: initial;
                 font-size: 15px;
             }
         }
