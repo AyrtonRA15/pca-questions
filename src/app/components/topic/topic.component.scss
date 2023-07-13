@@ -1,4 +1,20 @@
-.results-container,
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8px 16px;
+    
+    .nav-container {
+        .mdc-fab:not(:last-child) {
+            margin-right: 16px;
+        }
+    }
+
+    .close-button {
+        cursor: pointer;
+    }
+}
+
 .question-container,
 .index-container {
     border-radius: 4px;
@@ -11,24 +27,12 @@
 }
 
 .question-container {
-    .buttons-container {
+    .actions-container {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
+        justify-content: end;
 
-        .nav-container {
-            .mdc-fab:not(:last-child) {
-                margin-right: 16px;
-            }
-        }
-
-        .actions-container {
-            display: flex;
-
-            .mdc-button:not(:last-child) {
-                margin-right: 16px;
-            }
+        .mdc-button:not(:last-child) {
+            margin-right: 16px;
         }
     }
 }

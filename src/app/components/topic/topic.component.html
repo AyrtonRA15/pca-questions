@@ -1,3 +1,29 @@
+<div class="buttons-container">
+  <div class="nav-container">
+    <button
+      mat-mini-fab
+      color="primary"
+      aria-label="Previous question"
+      (click)="updateQ(currentQ - 1)"
+      [disabled]="currentQ === 0"
+    >
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+    <button
+      mat-mini-fab
+      color="primary"
+      aria-label="Next question"
+      (click)="updateQ(currentQ + 1)"
+      [disabled]="currentQ === totalQ - 1"
+    >
+      <mat-icon>arrow_forward</mat-icon>
+    </button>
+  </div>
+  <mat-icon class="close-button" (click)="close(showExitBtn() ? false : true)"
+    >close</mat-icon
+  >
+</div>
+
 <div class="question-container">
   <app-question
     [question]="question"
@@ -10,40 +36,15 @@
 
   <mat-divider></mat-divider>
 
-  <div class="buttons-container">
-    <div class="nav-container">
-      <button
-        mat-mini-fab
-        color="primary"
-        aria-label="Previous question"
-        (click)="updateQ(currentQ - 1)"
-        [disabled]="currentQ === 0"
-      >
-        <mat-icon>arrow_back</mat-icon>
-      </button>
-      <button
-        mat-mini-fab
-        color="primary"
-        aria-label="Next question"
-        (click)="updateQ(currentQ + 1)"
-        [disabled]="currentQ === totalQ - 1"
-      >
-        <mat-icon>arrow_forward</mat-icon>
-      </button>
-    </div>
-    <div class="actions-container">
-      <button mat-stroked-button (click)="close(showExitBtn() ? false : true)">
-        {{ showExitBtn() ? "Salir" : "Cancelar" }}
-      </button>
-      <button
-        mat-raised-button
-        color="primary"
-        (click)="submit()"
-        *ngIf="!showExitBtn()"
-      >
-        Finalizar
-      </button>
-    </div>
+  <div class="actions-container">
+    <button
+      mat-raised-button
+      color="primary"
+      (click)="submit()"
+      *ngIf="!showExitBtn()"
+    >
+      Finalizar
+    </button>
   </div>
 </div>
 
