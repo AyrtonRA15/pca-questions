@@ -25,9 +25,19 @@ export class AppComponent implements OnInit {
     this.topics = this.data?.topics;
   }
 
-  openTopicView(i: number): void {
+  openTopicView(i?: number): void {
     this.view = GlobalConstants.TOPIC;
-    this.currentTopic = this.topics[i];
+    if (i) {
+      this.currentTopic = this.topics[i];
+    } else {
+      let allQ: any[] = [];
+      for (let i = 0; i < this.topics.length; i++) {
+        allQ = allQ.concat(this.topics[i].questions);
+      }
+      this.currentTopic = {
+        questions: allQ,
+      };
+    }
   }
 
   close(): void {

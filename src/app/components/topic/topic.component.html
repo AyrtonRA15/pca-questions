@@ -56,7 +56,6 @@
     <mat-chip-option
       #chipOpt
       *ngFor="let q of [].constructor(totalQ); index as i"
-      [id]="'chip' + i"
       [highlighted]="ansSelected[i] || mode === 'answers-only'"
       (selectionChange)="updateQ(i)"
       [class.is-active]="currentQ === i"

@@ -21,6 +21,7 @@ import { GlobalConstants } from '../../../global-constants';
 export class TopicComponent implements OnInit {
   @Input() topic: any;
   @Input() mode: any;
+  @Input() isRandom = false;
   @Output() cancel = new EventEmitter<any>();
 
   @ViewChildren('chipOpt') chipOpts: QueryList<MatChipOption> | undefined;
@@ -30,6 +31,7 @@ export class TopicComponent implements OnInit {
   question: any = {};
   currentQ = 0;
   totalQ = 0;
+  // qListOrder: number[] = []; // Array to store order for questions
   ansSelected: any[] = [];
 
   // Results
@@ -41,13 +43,27 @@ export class TopicComponent implements OnInit {
 
   ngOnInit(): void {
     this.totalQ = this.topic?.questions.length;
+    // this.qListOrder = Array.from(Array(this.totalQ).keys());
+    if (this.isRandom) {
+      // this.shuffleArrayItems(this.qListOrder);
+      this.shuffleArrayItems(this.topic.questions);
+    }
     this.ansSelected = new Array<string>(this.totalQ);
     this.updateQ();
+  }
+
+  shuffleArrayItems(array: number[]) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
   }
 
   updateQ(i = 0): void {
     this.currentQ = i;
     this.question = this.topic.questions[this.currentQ];
+    // this.question = this.topic.questions[this.qListOrder[this.currentQ]];
     this.chipOpts?.toArray()[this.currentQ].select();
   }
 
