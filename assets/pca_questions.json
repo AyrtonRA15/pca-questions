@@ -543,35 +543,43 @@
         },
         {
             "name": "Sistemas de Aeronaves",
-            "icon": "miscellaneous_services"
+            "icon": "miscellaneous_services",
+            "questions": []
         },
         {
             "name": "Instrumentos de Vuelo",
-            "icon": "hdr_strong"
+            "icon": "hdr_strong",
+            "questions": []
         },
         {
             "name": "Reglamentación",
-            "icon": "gavel"
+            "icon": "gavel",
+            "questions": []
         },
         {
             "name": "Procedimientos y Operaciones de Aeródromos",
-            "icon": "flight_takeoff"
+            "icon": "flight_takeoff",
+            "questions": []
         },
         {
             "name": "Meteorología",
-            "icon": "thunderstorm"
+            "icon": "thunderstorm",
+            "questions": []
         },
         {
             "name": "Servicios Meteorológicos",
-            "icon": "rss_feed"
+            "icon": "rss_feed",
+            "questions": []
         },
         {
             "name": "Performance de la Aeronave",
-            "icon": "insert_chart_outlined"
+            "icon": "insert_chart_outlined",
+            "questions": []
         },
         {
             "name": "Navegación",
-            "icon": "near_me"
+            "icon": "near_me",
+            "questions": []
         }
     ]
 }
