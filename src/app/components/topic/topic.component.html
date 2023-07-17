@@ -37,6 +37,9 @@
   <mat-divider></mat-divider>
 
   <div class="actions-container">
+    <span>
+      {{ currentQ + 1 + " / " + totalQ }}
+    </span>
     <button
       mat-raised-button
       color="primary"
@@ -45,6 +48,7 @@
     >
       Finalizar
     </button>
+    <span *ngIf="isViewingResults"> Resultado: {{ score }}% </span>
   </div>
 </div>
 

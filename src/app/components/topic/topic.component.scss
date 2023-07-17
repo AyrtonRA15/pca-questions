@@ -29,10 +29,11 @@
 .question-container {
     .actions-container {
         display: flex;
-        justify-content: end;
+        justify-content: space-between;
+        align-items: center;
 
-        .mdc-button:not(:last-child) {
-            margin-right: 16px;
+        span {
+            margin: 0 8px;
         }
     }
 }

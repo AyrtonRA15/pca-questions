@@ -37,7 +37,7 @@
                     "explanation":"El factor de carga es la relación entre la carga aérea total soportada por el ala y el peso total del avión; es decir, la carga total soportada por las alas dividida por el peso total del avión."
                 },
                 {
-                    "qn":"Para cualquier ángulo de inclinación, en cualquier avión, el factor de carga impuesto enun giro coordinado con altitud constante:",
+                    "qn":"Para cualquier ángulo de inclinación, en cualquier avión, el factor de carga impuesto en un giro coordinado con altitud constante:",
                     "a":"Es constante y la velocidad de pérdida incrementará.",
                     "b":"Varía con la tasa de giro.",
                     "c":"Es constante y la velocidad de pérdida disminuirá.",
@@ -85,7 +85,7 @@
                     "explanation":"Para cualquier ángulo de inclinación la tasa de inclinación variara con respecto a la velocidad del aire. En otras palabras, si el ángulo de banqueo se mantiene constante y la velocidad del aire aumenta, la tasa de giro decrecerá, o si la velocidad del aire disminuye, la tasa de giro incrementará. Debido a esto, no hay un cambio en la fuerza centrífuga para una inclinación dada. Por lo tanto, el factor de carga seguirá siendo el mismo. La respuesta (B) es incorrecta porque la velocidad de giro varía en función de la velocidad del aire con un ángulo de inclinación constante. La respuesta (C) es incorrecta porque el factor de carga varía en función del vector de carga resultante."
                 },
                 {
-                    "qn":"La necesidad de reducir la velocidad de una aeronave por debajo de V(A) se produce porel siguiente fenómeno meteorológico:",
+                    "qn":"La necesidad de reducir la velocidad de una aeronave por debajo de V(A) se produce por el siguiente fenómeno meteorológico:",
                     "a":"Alta densidad por altitud, que incrementa la velocidad indicada de pérdida.",
                     "b":"Turbulencia, que causa incrementos en la velocidad de pérdida.",
                     "c":"Turbulencia, que causa una disminución en la velocidad de pérdida.",
@@ -124,7 +124,7 @@
                     "explanation":"A un ángulo de banqueo determinado, una mayor velocidad del aire hará que el radio de giro sea mayor y el avión girara a una velocidad más lenta. Esto compensa la fuerza centrífuga añadida, permitiendo que el factor de carga permanezca constante."
                 },
                 {
-                    "qn":"Un factor de carga de 1,2 significa que la carga total sobre la estructura de un avión es1,2 veces su:",
+                    "qn":"Un factor de carga de 1,2 significa que la carga total sobre la estructura de un avión es 1,2 veces su:",
                     "a":"Peso bruto.",
                     "b":"Carga limite.",
                     "c":"Factor de ráfaga.",
@@ -156,7 +156,7 @@
                     "explanation":"Extender los flaps incrementa la sustentación del ala y también incrementa la resistencia inducida. El incremento de la resistencia permite al piloto hacer aproximaciones más pronunciadas sin aumentar la velocidad del aire. La respuesta (A) es incorrecta porque los flaps incrementan el ángulo de descenso sin incrementar la velocidad del aire. La respuesta (C) es incorrecta porque los flaps aumentan la sustentación y la resistencia inducida."
                 },
                 {
-                    "qn":"Para incrementar la velocidad de giro y al mismo tiempo disminuir el radio, el pilotodebería:",
+                    "qn":"Para incrementar la velocidad de giro y al mismo tiempo disminuir el radio, el piloto debería:",
                     "a":"Mantener el banqueo y disminuir la velocidad.",
                     "b":"Incrementar el banqueo y aumentar la velocidad.",
                     "c":"Incrementar el banqueo y disminuir la velocidad.",
@@ -164,7 +164,7 @@
                     "explanation":"La componente horizontal de la sustentación será igual a la fuerza centrífuga de un viraje en vuelo estable. Para incrementar la tasa de giro, el ángulo de banqueo debe ser incrementado y la velocidad del aire debe ser disminuida. La respuesta (A) es incorrecta porque, aunque a un ángulo de banqueo dado, una disminución en la velocidad del aire incrementará la tasa de giro y disminuirá el radio, esto será tan efectivo como aumentar la inclinación y disminuir la velocidad. La respuesta (B) es incorrecta porque el piloto debe disminuir la velocidad para incrementar el radio de giro."
                 },
                 {
-                    "qn":"¿Cuál es la opción correcta con respecto a la tasa y radio de giro para un avión que vuelaen giro coordinado a una altitud constante?",
+                    "qn":"¿Cuál es la opción correcta con respecto a la tasa y radio de giro para un avión que vuela en giro coordinado a una altitud constante?",
                     "a":"Para un especifico ángulo de banqueo y velocidad de aire, la tasa y radio de giro no variaran.",
                     "b":"Para mantener una tasa de giro estable, el ángulo de giro debe ser incrementado.",
                     "c":"Cuanto más rápida es la velocidad del aire, más rápido será la tasa y más largo el radio de giro independientemente del ángulo de giro.",
@@ -212,7 +212,7 @@
                     "explanation":"Al cambiar el ángulo de ataque, el piloto puede controlar la sustentación, la velocidad del aire y la resistencia. La respuesta (B) es incorrecta porque el ángulo de ataque no afecta al centro de gravedad. La respuesta (C) es incorrecta porque el ángulo de ataque también determina la resistencia."
                 },
                 {
-                    "qn":"El perfil aerodinámico de un avión está diseñado para producir la sustentaciónresultante de una diferencia en:",
+                    "qn":"El perfil aerodinámico de un avión está diseñado para producir la sustentación resultante de una diferencia en:",
                     "a":"La presión negativa del aire por debajo y el vacío por encima del perfil aerodinámico.",
                     "b":"El vacío por debajo de la superficie y una presión del aire mayor sobre la superficie del perfil aerodinámico.",
                     "c":"Una alta presión del aire por debajo de la superficie y una menor presión del aire encima de la superficie del perfil aerodinámico.",
