@@ -1,0 +1,215 @@
+{
+    "name": "Performance de la Aeronave",
+    "icon": "insert_chart_outlined",
+    "questions": [
+        {
+            "qn":"402.- Un equipaje que pesa 90 libras se coloca en el compartimiento de equipaje de un avión de categoría normal que tiene un letrero que indica 100 libras de capacidad. Si este avión se somete a un factor de carga positivo de 3.5 Gs, la carga total del equipaje sería:",
+            "a":"315 libras y excedería la limitante.",
+            "b":"315 libras y no excedería la limitante.",
+            "c":"350 libras y no excedería la limitante.",
+            "ans":"b",
+            "explanation":"Cada compartimento de carga debe diseñarse para su peso máximo de contenido rotulado en relación con los factores de carga críticos. Las aeronaves de categoría normal con un peso bruto de menos de 4,000 libras están diseñadas para un factor de carga de maniobra de 3.8 veces el peso de la aeronave o 3.8 Gs. Por tanto, un factor de carga de 3.5 Gs no sería excesivo. El factor de carga es la relación entre una carga dada y su peso. Por lo tanto:\n90.0 lbs de peso x 3.5 Gs = 315.0 lbs de carga."
+        },
+        {
+            "qn":"403.- En aeropuertos de mayor altitud, el piloto debe saber que la velocidad indicada:",
+            "a":"no cambiará, pero la velocidad respecto a tierra será mayor.",
+            "b":"será mayor, pero la velocidad respecto a tierra no cambiará.",
+            "c":"deberá aumentarse para compensar el aire más fino.",
+            "ans":"a",
+            "explanation":"Un avión en altitud aterrizará a la misma velocidad indicada que a nivel del mar, pero debido a la menor densidad del aire, tendrá una mayor velocidad verdadera. Si la velocidad verdadera es mayor, la velocidad respecto a tierra será mayor."
+        },
+        {
+            "qn":"404.- Las tablas de rendimiento de una aeronave para despegue y ascenso se basan en:",
+            "a":"altitud de presión / densidad.",
+            "b":"altitud de la cabina.",
+            "c":"altitud verdadera.",
+            "ans":"a",
+            "explanation":"La presión y la altitud de densidad son los factores utilizados en las tablas de rendimiento de la aeronave para el despegue y el ascenso.\nLa respuesta (B) es incorrecta porque la altitud de la cabina es la altitud a la que se encuentra una cabina presurizada. La respuesta (C) es incorrecta porque la altitud verdadera es la altura sobre el nivel del mar. Las cartas aeronáuticas muestran las elevaciones de los obstáculos en altitud real."
+        },
+        {
+            "qn":"405.- ¿Qué efecto, si lo hubiera, tendría un cambio en la temperatura ambiente o la densidad del aire en el rendimiento de un motor a reacción?",
+            "a":"A medida que disminuye la densidad del aire, aumenta el empuje.",
+            "b":"A medida que aumenta la temperatura, aumenta el empuje.",
+            "c":"A medida que aumenta la temperatura, el empuje disminuye.",
+            "ans":"c",
+            "explanation":"Un aumento de altitud hace que el flujo de aire del motor disminuya de una manera casi idéntica a la relación de densidad de altitud. Esto provoca una disminución significativa del empuje en altitud frente al empuje a nivel del mar a medida que aumenta la altitud. Un aumento en la temperatura del aire de entrada proporcionará una menor energía del gas de combustión y provocará una menor velocidad del chorro"
+        },
+        {
+            "qn":"406.- ¿Cuál es la temperatura estándar a 10,000 pies?",
+            "a":"-5° C.",
+            "b":"-15° C.",
+            "c":"+5° C.",
+            "ans":"a",
+            "explanation":"La temperatura estándar al nivel del mar es de 15° C. La gradiente estándar de temperatura es de 2° C / 1,000 pies.\n10 x 2 = -20° C disminución de temperatura a 10,000 pies\n+ 15° - 20° = -5° C temperatura estándar a 10,000 pies."
+        },
+        {
+            "qn":"407.- ¿Cuál es la temperatura estándar a 20.000 pies?",
+            "a":"-15°C.",
+            "b":"-20°C.",
+            "c":"-25°C.",
+            "ans":"c",
+            "explanation":"La temperatura estándar al nivel del mar es de 15° C. La gradiente estándar de temperatura es de 2° C / 1,000 pies.\n20 x -2 = -40° C disminución de temperatura a 20,000 pies\n15°C - 40°C = -25°C temperatura estándar a 20,000 pies"
+        },
+        {
+            "qn":"408.- ¿Cuáles son los valores estándar de temperatura y presión a nivel del mar?",
+            "a":"15°C y 29,92'' Hg.",
+            "b":"59°F y 1013.2'' Hg.",
+            "c":"15°C y 29.92 Mb.",
+            "ans":"a",
+            "explanation":"En la atmósfera estándar, la presión a nivel del mar es de 29,92 pulgadas de mercurio o 1013,2 hectopascales. La temperatura a nivel medio del mar es de 15°C (59° F)."
+        },
+        {
+            "qn":"409.- Cuando se desvía a un aeropuerto alterno debido a una emergencia, los pilotos deben:",
+            "a":"depender de la radio como método principal de navegación.",
+            "b":"ascender a una altitud mayor porque será más fácil identificar los puntos de la ruta.",
+            "c":"aplicar cálculos básicos, estimaciones y otros atajos apropiados para desviarse al nuevo curso lo antes posible.",
+            "ans":"c",
+            "explanation":"Los cálculos de rumbo, tiempo, velocidad y distancia en vuelo requieren los mismos procedimientos básicos que se utilizan en la planificación previa al vuelo. Sin embargo, debido a las limitaciones de espacio en la cabina y al equipo disponible, y debido a que la atención del piloto debe dividirse entre la solución del problema y la operación de la aeronave, el piloto debe aprovechar todos los atajos posibles y los cálculos básicos.\nLa respuesta (A) es incorrecta porque cualquier forma de navegación es apropiada. La respuesta (B) es incorrecta porque los ascensos pueden consumir tiempo y combustible."
+        },
+        {
+            "qn":"410.- ¿Qué efecto tiene una pendiente positiva de pista en el rendimiento del despegue?",
+            "a":"Aumenta la velocidad de despegue.",
+            "b":"Aumenta la distancia de despegue.",
+            "c":"Disminuye la distancia de despegue.",
+            "ans":"b",
+            "explanation":"El efecto de la pendiente de la pista sobre la distancia de despegue se debe a la componente del peso a lo largo de la trayectoria inclinada de la aeronave. Una pendiente positiva contribuiría con una componente de fuerza de retardo, mientras que una pendiente negativa contribuiría con un componente de fuerza de aceleración. En el caso de una pendiente ascendente (positiva), el componente de fuerza de retardo se suma a la resistencia y la fricción de rozamiento para reducir la fuerza neta de aceleración."
+        },
+        {
+            "qn":"411.- Al iniciar un sobrepaso, el piloto debe tener en cuenta que:",
+            "a":"las comunicaciones por radio son clave para alertar a otras aeronaves en el circuito de que se está realizando una maniobra de sobrepaso.",
+            "b":"el avión está compensado para una condición potencia reducida y la aplicación de potencia de despegue hará que la nariz suba rápidamente.",
+            "c":"los flaps deben elevarse lo más rápido posible para reducir la resistencia y aumentar la velocidad para efectuar el sobrepaso adecuadamente.",
+            "ans":"b",
+            "explanation":"Cuando se aplica potencia de despegue, por lo general se hace necesario ejercer una presión considerable sobre los controles para mantener el rumbo y una actitud de ascenso segura. Dado que el avión está compensado para la aproximación (una condición de baja potencia y velocidad), la aplicación de la potencia máxima permitida requiere una presión considerable sobre el control para mantener una actitud de ascenso. Esta aplicación de potencia tiende a levantar la nariz de la aeronave de forma repentina y produce una tendencia de viraje hacia la izquierda.\nLa respuesta (A) es incorrecta porque la potencia es la primera preocupación del piloto en una maniobra de sobrepaso; volar antes de comunicar. La respuesta (C) es incorrecta porque los flaps solo deben retraerse una vez que se haya aplicado la potencia y se haya establecido la actitud de ascenso adecuada."
+        },
+        {
+            "qn":"412.- En los cálculos de peso y balance, el peso básico vacío incluye el peso de la estructuradel avión, los motores y todo el equipo opcional instalado. El peso básico vacío también incluye:",
+            "a":"el combustible no utilizable, los fluidos requeridos para el funcionamiento de la aeronave y todo el aceite.",
+            "b":"todo el combustible utilizable, aceite, fluido hidráulico, pero no incluye el peso del piloto, los pasajeros ni el equipaje.",
+            "c":"todo combustible y aceite utilizable, pero no incluye ningún equipo o instrumento de radio que haya sido instalado por alguien que no sea el fabricante.",
+            "ans":"a",
+            "explanation":"El peso básico vacío incluye combustible no utilizable, los líquidos requeridos para el funcionamiento de la aeronave y todo el aceite."
+        },
+        {
+            "qn":"413.- Si todas las unidades de índice son positivas al realizar los cálculos de peso y balance,el datum estaría ubicado en:",
+            "a":"la línea central de las ruedas principales.",
+            "b":"la nariz o delante del avión.",
+            "c":"la línea central de la rueda de nariz o la rueda de cola, según el tipo de avión.",
+            "ans":"b",
+            "explanation":"Por lo general, el brazo (unidad de índice) de una estación en la aeronave está expresado en pulgadas detrás del datum. Un brazo positivo indica que la posición del objeto está detrás del datum. Si todas las unidades de índice son positivas, el datum debe estar al menos en la nariz de la aeronave.\nLa respuesta (A) es incorrecta porque el motor tendría un brazo negativo si el datum estuviera en la línea central de las ruedas principales. La respuesta (C) es incorrecta porque la hélice tendría un brazo negativo si el datum estuviera en la línea central de la rueda de nariz o la rueda de cola."
+        },
+        {
+            "qn":"414.- ¿Con cuál de los siguientes métodos se puede determinar el CG de una aeronave?",
+            "a":"Dividiendo los brazos totales por los momentos totales.",
+            "b":"Multiplicar el total de brazos por el peso total.",
+            "c":"División de momentos totales por peso total.",
+            "ans":"c",
+            "explanation":"El momento total es el peso del avión por la distancia entre el datum y el CG. Por lo tanto: CG = Momento total ÷ Peso total."
+        },
+        {
+            "qn":"415.- DADO: Peso A: 155 libras a 45 pulgadas después del datum. Peso B: 165 libras a 145 pulgadas después del datum. Peso C: 95 libras a 185 pulgadas después del datum. Con baseen esta información, ¿dónde se ubicaría el CG con respecto al datum?",
+            "a":"86.0 pulgadas.",
+            "b":"116.8 pulgadas.",
+            "c":"125.0 pulgadas.",
+            "ans":"b",
+            "explanation":"1. El brazo es la distancia indicada después del datum para cada elemento: Peso x brazo = Momento\n155 x 45 = 6,975 para A\n165 x 145 = 23,925 para B\n+ 95 x 185 = + 17,575 para C\nTotales 415 lbs 48,475 lbs-in\n2. Momentos ÷ Peso total = Ubicación del CG 48,475 ÷ 415 = 116.8 pulgadas."
+        },
+        {
+            "qn":"416.- DADO: Peso A: 140 libras a 17 pulgadas después del datum. Peso B: 120 libras a 110 pulgadas después del datum. Peso C: 85 libras a 210 pulgadas después del datum. Con base en esta información, el CG se ubicaría ¿a qué distancia del datum?",
+            "a":"89.11 pulgadas.",
+            "b":"96.89 pulgadas.",
+            "c":"106.92 pulgadas.",
+            "ans":"b",
+            "explanation":"1. El brazo es la distancia indicada después del datum para cada elemento: Peso x brazo = Momento\n140 x 17 = 2,380 para A\n120 x 110 = 13,200 para B\n+ 85 x 210 = + 17,850 para C\n345 libras 33,430 libras-pulg\n2. Momentos ÷ Peso total = Ubicación del CG 33,430 ÷ 345 = 96.89 pulgadas"
+        },
+        {
+            "qn":"417.- DADO: Peso A: 135 libras a 15 pulgadas después del datum. Peso B: 205 libras a 117 pulgadas después del datum. Peso C: 85 libras a 195 pulgadas después del datum. Con base en esta información, el CG se ubicaría ¿a qué distancia del datum?",
+            "a":"100.2 pulgadas",
+            "b":"109 pulgadas",
+            "c":"121.7 pulgadas",
+            "ans":"a",
+            "explanation":"1. El brazo es la distancia indicada después del datum para cada elemento: Peso x brazo = Momento\n135 x 15 = 2,025 para A\n205 x 117 = 23,985 para B\n+ 85 x 195 = + 16,575 para C\n425 libras 42,585 libras-pulg.\n2. Momentos ÷ Peso total = Ubicación del CG 42,585 ÷ 425 = 100.2 pulgadas"
+        },
+        {
+            "qn":"418.- DADO: Peso A: 175 libras a 135 pulgadas después del datum. Peso B: 135 libras a 115 pulgadas después del datum. Peso C: 75 libras a 85 pulgadas después del datum. ¿A qué distancia del datum estaría el CG correspondiente a la sumatoria de estos pesos?",
+            "a":"91.76 pulgadas.",
+            "b":"111.67 pulgadas.",
+            "c":"118.24 pulgadas.",
+            "ans":"c",
+            "explanation":"1. El brazo es la distancia indicada después del datum para cada elemento: Peso x brazo = Momento\n175 x 135 = 23,625 para A\n135 x 115 = 15,525 para B\n+ 75 x 85 = + 6,375 para C\n385 libras 45,525 libras-pulg.\n2. Momentos ÷ Peso total = Ubicación del CG 45,525 ÷ 385 = 118.25 pulgadas"
+        },
+        {
+            "qn":"419.- DADO: Peso total 4,137 lb. Posición del CG 67.8 pulgadas. Consumo de combustible 13.7 GPH. Posición del CG del combustible 68.0. Después de 1 hora y 30 minutos de vuelo, el CG se ubicaría en la estación.",
+            "a":"67.79",
+            "b":"68.79",
+            "c":"70.78",
+            "ans":"a",
+            "explanation":"1. Encuentre el cambio de peso: 13.7 GPH durante 1.5 horas = 20.55 gal\n20.55 galones x 6 libras / galón = 123.3 libras 2. El nuevo peso total es 4,137 – 123.3 = 4,013.7\n3. La distancia entre el CG y el brazo de combustible es 68.0 - 67.8 = 0.2\n4. Reemplace los valores en la fórmula y realice una multiplicación cruzada: 123.3 ÷ 4013.7 = cambio de CG ÷ 0.2 = 24.66 = 4,013.7 (cambio de CG)\n5. Divida para determinar el cambio de CG: 24.66 / 4,013.7 = cambio CG = 0.00614\n123.3 ÷ 4013.7 = cambio de CG ÷ 0.2 = 0.00614 pulgadas\n6. Calcule el nuevo CG:\nCG inicial 67.80000 - Cambio de CG .00614 = Nueva posición del CG 67.79386."
+        },
+        {
+            "qn":"420.- Una aeronave se carga con un peso de rampa de 3,650 libras y tiene un CG de 94.0, aproximadamente cuánto equipaje tendría que moverse desde el área de equipaje trasera en la estación 180 al área de equipaje delantera en la estación 40 para mover el CG a 92.0?",
+            "a":"52.14 libras.",
+            "b":"62.24 libras.",
+            "c":"78.14 libras.",
+            "ans":"a",
+            "explanation":"Determine la cantidad de peso que se moverá:\nPeso desplazado ÷ Peso total = cambio en CG (94 - 92) ÷ Dist. Peso desplazado (180 - 40)\nPeso a cambiar ÷ 3,650 lbs = 2.0 ÷ 140\n3,650 x 2 ÷ 140 = 7,300 ÷ 140 = 52.143."
+        },
+        {
+            "qn":"421.- Un avión se carga con un peso bruto de 4,800 libras, con tres piezas de equipaje en el compartimiento de equipaje trasero. El CG se encuentra a 98 pulgadas después del datum, lo que indica que está 1 pulgada por fuera del límite trasero. Si el equipaje que pesa 90 libras se mueve desde el compartimiento de equipaje trasero (145 pulgadas después del datum) al compartimiento delantero (45 pulgadas después del datum), ¿cuál es el nuevo CG?",
+            "a":"96.13 pulgadas después del datum.",
+            "b":"95.50 pulgadas después del datum.",
+            "c":"",
+            "ans":"a",
+            "explanation":"1. Cambio en CG = Peso desplazado x Distancia desplazada ÷ Peso total\n90 x (145 - 45) ÷ 4,800 = 1.875 pulgadas\n2. Dado que el peso se desplazó hacia adelante, el CG también se mueve hacia adelante. El cambio de 1.875 pulgadas se resta del CG original.\nNuevo CG = 98.0 – 1.875 = 96.13 pulgadas."
+        },
+        {
+            "qn":"422.- DADO: Peso total 3,037 lb. Posición del CG 68.8. Consumo de combustible 12.7 GPH. Posición del. CG del combustible 68.0. Después de 1 hora y 45 minutos de vuelo, ¿en qué estación estaría el CG?",
+            "a":"68.77.",
+            "b":"68.83.",
+            "c":"69.77.",
+            "ans":"b",
+            "explanation":"1. Encuentre el cambio de peso: 12.7 GPH durante 1.75 horas = 22.23 gal\n22.23 galones x 6 libras / galón = 133.35 libras 2. El nuevo peso total es 3,037 – 133.35 = 2,903.65\n3. La distancia entre el CG y el brazo de combustible es 68.8 – 68.0 = 0.8\n4. Reemplace los valores en la fórmula y realice una multiplicación cruzada: 133.35 ÷ 2,903.65 = cambio de CG ÷ .8 = 106.68 = 2,903.65 (cambio de CG)\n5. Divida para determinar el cambio de CG:\n106.68 / 2,903.65 = cambio de CG = .03674 pulgadas\n6. Calcule el nuevo CG:\nCG original 68.80000 + cambio CG .03674 = Nuevo CG 68.83674."
+        },
+        {
+            "qn":"423.- Con respecto a la técnica requerida para una corrección de viento cruzado en eldespegue, un piloto debe usar:",
+            "a":"presión de los alerones de cara al viento e iniciar la rotación a una velocidad normal tanto aviones con patín de cola y los de tren triciclo.",
+            "b":"presión del timón de dirección a la derecha, presión de los alerones de cara al viento y una velocidad de rotación superior a la normal tanto en aviones con tren triciclo como en los de tren convencional.",
+            "c":"timón de dirección según sea necesario para mantener el control direccional, presión de los alerones de cara al viento y una velocidad de despegue superior a la normal en los aviones de tren convencional y tren triciclo.",
+            "ans":"c",
+            "explanation":"Se requiere timón de dirección en todo momento para mantener el control direccional. La presión de los alerones de cara al viento mantendrá el ala baja y evitará derrapamiento lateral. Es deseable una velocidad de rotación ligeramente superior a la normal para asegurar un despegue positivo y evitar que la aeronave vuelva a tomar contacto con la pista.\nLa respuesta (A) es incorrecta porque la velocidad de rotación debe aumentarse ligeramente y se debe aplicar presión sobre el timón de dirección para mantener el control direccional. La respuesta (B) es incorrecta porque se debe aplicar presión en el timón de dirección para mantener el control direccional, tanto hacia la derecha como hacia la izquierda."
+        },
+        {
+            "qn":"424.- Cuando se encuentran turbulencias durante la aproximación para el aterrizaje, ¿qué acción se recomienda y por qué motivo principal?",
+            "a":"Aumente la velocidad ligeramente por encima de la velocidad de aproximación normal para lograr un control más positivo.",
+            "b":"Disminuya la velocidad ligeramente por debajo de la velocidad de aproximación normal para evitar sobrecargar el avión.",
+            "c":"Aumente la velocidad ligeramente por encima de la velocidad de aproximación normal para penetrar la turbulencia lo más rápido posible.",
+            "ans":"a",
+            "explanation":"Las aproximaciones con motor a una velocidad ligeramente superior a la velocidad de aproximación normal deben utilizarse para aterrizar en aire significativamente turbulento. Esto proporciona un control más positivo del avión cuando se experimentan fuertes ráfagas de viento horizontal o corrientes ascendentes y descendentes.\nLa respuesta (B) es incorrecta porque, dado que la velocidad de aproximación está muy por debajo de V (A), no se producirán daños estructurales. La respuesta (C) es incorrecta porque el aumento de la velocidad de aproximación es para aumentar la efectividad del control, no para volar a través de turbulencias más rápido."
+        },
+        {
+            "qn":"425.- Si experimenta una falla de motor en un avión monomotor después del despegue, debe:",
+            "a":"establecer la actitud de planeo adecuada.",
+            "b":"virar para enfrentar el viento",
+            "c":"ajustar el cabeceo para mantener VY.",
+            "ans":"a",
+            "explanation":"En el caso de una falla del motor en el ascenso inicial, la primera responsabilidad del piloto es mantener el control de la aeronave. En una actitud de ascenso sin potencia, el avión está en un ángulo de ataque de pérdida o cerca a éste. Al mismo tiempo, es posible que el piloto aún mantenga el timón de dirección deflectado a la derecha. El piloto debe bajar inmediatamente la nariz para evitar una pérdida mientras deflecta el timón de dirección para asegurar un vuelo coordinado. No se debe intentar volver a la pista desde la que se despegó. El piloto debería establecer un planeo controlado hacia un área de aterrizaje adecuada, preferiblemente dentro del rumbo de vuelo de la aeronave."
+        },
+        {
+            "qn":"426.- ¿Qué tipo de aproximación y aterrizaje se recomienda en condiciones de ráfagas de viento?",
+            "a":"Aproximación con potencia y aterrizaje con potencia.",
+            "b":"Aproximación sin potencia y aterrizaje con potencia.",
+            "c":"Aproximación con potencia y aterrizaje sin potencia.",
+            "ans":"a",
+            "explanation":"Las aproximaciones con motor a una velocidad ligeramente superior a la velocidad de aproximación normal deben utilizarse para aterrizar en aire significativamente turbulento. Estas aproximaciones para aterrizar generalmente se realizan a la velocidad de aproximación normal más la mitad del factor de ráfaga de viento. Se debe utilizar una cantidad adecuada de potencia para mantener la velocidad correcta en todo momento."
+        },
+        {
+            "qn":"427.- Un aterrizaje adecuado con viento cruzado en una pista requiere que, en el momento del aterrizaje:",
+            "a":"la dirección de desplazamiento del avión y su eje lateral estén perpendicular a la pista.",
+            "b":"la dirección de desplazamiento del avión y su eje longitudinal estén paralelos a la pista.",
+            "c":"el ala a favor del viento debe bajarse lo suficiente para eliminar la tendencia del avión a derrapar.",
+            "ans":"b",
+            "explanation":"La dirección del desplazamiento y el eje longitudinal deben estar paralelos a la pista o se producirá un derrape, con posibles daños a la aeronave.\nLa respuesta (A) es incorrecta porque la dirección de desplazamiento del avión debe ser paralela a la pista. La respuesta (C) es incorrecta porque el ala a favor del viento debe bajarse para eliminar el derrape."
+        }
+    ]
+}
+
