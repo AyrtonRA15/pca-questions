@@ -27,7 +27,7 @@ export class AppComponent implements OnInit {
 
   openTopicView(i?: number): void {
     this.view = GlobalConstants.TOPIC;
-    if (i) {
+    if (i != undefined) {
       this.currentTopic = this.topics[i];
     } else {
       let allQ: any[] = [];

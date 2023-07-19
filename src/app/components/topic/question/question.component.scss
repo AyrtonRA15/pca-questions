@@ -56,4 +56,10 @@
             }
         }
     }
+
+    .mat-expansion-panel-body {
+        p {
+            white-space: pre-line;
+        }
+    }
 }
