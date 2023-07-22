@@ -1,0 +1,727 @@
+{
+    "name": "Meteorología",
+    "icon": "thunderstorm",
+    "questions": [
+        {
+            "qn":"273.- Todo proceso físico del tiempo va acompañado o es el resultado de:",
+            "a":"una transferencia de calor.",
+            "b":"el movimiento del aire.",
+            "c":"un diferencial de presión.",
+            "ans":"a",
+            "explanation":"La cantidad de energía solar que recibe cualquier región varía con la hora del día, con las estaciones y con la latitud. Estas diferencias en la energía solar crean variaciones de temperatura. Las temperaturas también varían con las diferencias de superficie topográfica y con la altitud. Esta variación de temperatura, o intercambio de calor, crea fuerzas que impulsan a la atmósfera en su interminable movimiento."
+        },
+        {
+            "qn":"274.- ¿Qué condiciones son favorables para la formación de una inversión de temperatura en superficie?",
+            "a":"Noches despejadas y frescas con viento en calma o ligero.",
+            "b":"Zona de aire inestable que transfiere rápidamente el calor de la superficie.",
+            "c":"Amplias zonas de cúmulos con bases lisas y niveladas a la misma altura.",
+            "ans":"a",
+            "explanation":"A menudo se produce una inversión cerca del suelo en las noches claras y frescas cuando el viento es ligero.\nLa respuesta (B) es incorrecta porque el aire cerca de la superficie debe ser estable para permitir que el suelo fresco baje la temperatura del aire circundante. La respuesta (C) es incorrecta porque los cúmulos están muy por encima de la superficie."
+        },
+        {
+            "qn":"275.- ¿Qué causa el viento?",
+            "a":"La rotación de la tierra.",
+            "b":"Modificación de la masa de aire.",
+            "c":"Diferencias de presión.",
+            "ans":"c",
+            "explanation":"Las diferencias de temperatura crean diferencias de presión. Estas diferencias de presión impulsan un complejo sistema de vientos en un intento interminable de alcanzar el equilibrio."
+        },
+        {
+            "qn":"276.- La altitud por densidad es la distancia vertical sobre el nivel medio del mar en la atmósfera estándar en la que:",
+            "a":"La altitud por presión se corrige para la temperatura estándar.",
+            "b":"Una densidad atmosférica determinada.",
+            "c":"Se consideran la temperatura, la presión, la altitud y la humedad.",
+            "ans":"b",
+            "explanation":"La altitud por densidad es la distancia vertical sobre el nivel del mar en la atmósfera estándar en la que se encuentra una densidad determinada. La densidad del aire tiene efectos significativos en el rendimiento del avión."
+        },
+        {
+            "qn":"277.- En el hemisferio norte, el viento se desvía hacia la:",
+            "a":"derecha por la fuerza de Coriolis.",
+            "b":"derecha por la fricción de la superficie.",
+            "c":"izquierda por la fuerza de Coriolis.",
+            "ans":"a",
+            "explanation":"La fuerza de Coriolis desvía el aire hacia la derecha en el hemisferio norte."
+        },
+        {
+            "qn":"278.- ¿Por qué el viento tiende a fluir en paralelo a las isobaras de presión por encima del nivelde fricción?",
+            "a":"La fuerza de Coriolis tiende a contrarrestar el gradiente de presión horizontal.",
+            "b":"La fuerza de Coriolis actúa perpendicularmente a una línea que une los máximos y los mínimos.",
+            "c":"La fricción del aire con la tierra desvía el aire perpendicularmente al gradiente de presión.",
+            "ans":"a",
+            "explanation":"La fuerza del gradiente de presión impulsa el viento y es perpendicular a las isobaras. Cuando se establece por primera vez una fuerza de gradiente de presión, el viento comienza a soplar de mayor a menor presión directamente a través de las isobaras. Sin embargo, en el momento en que el aire comienza a moverse, la fuerza de Coriolis lo desvía hacia la derecha. Por lo tanto, el viento se desvía a 90° y se sitúa en paralelo a las isobaras o contornos. En este momento, la fuerza de Coriolis equilibra exactamente la fuerza del gradiente de presión. Con las fuerzas en equilibrio, el viento permanecerá paralelo a las isobaras o contornos."
+        },
+        {
+            "qn":"279.- El sistema de vientos asociado a una zona de bajas presiones en el hemisferio norte es:",
+            "a":"un anticiclón y es causado por el aire frío descendente.",
+            "b":"un ciclón y es causado por la fuerza de Coriolis.",
+            "c":"un anticiclón y es causado por la fuerza de Coriolis.",
+            "ans":"b",
+            "explanation":"Las tormentas que se desarrollan entre los sistemas de alta presión se caracterizan por la baja presión. Como los vientos tratan de soplar hacia el centro de la baja presión, también se desvían hacia la derecha. Así, el viento alrededor de una zona de baja presión se mueve en sentido contrario a las agujas del reloj. La baja presión y su sistema de vientos es un ciclón.\nLa respuesta (A) es incorrecta porque describen un sistema de altas presiones. La respuesta (C) es incorrecta porque describen un sistema de altas presiones."
+        },
+        {
+            "qn":"280.- Con respecto a los patrones de flujo de viento mostrados en los gráficos de análisis de superficie; cuando las isobaras son:",
+            "a":"Cercanas y la fuerza del gradiente de presión es leve y las velocidades del viento son más débiles.",
+            "b":"Lejanas y la fuerza del gradiente de presión es mayor y las velocidades del viento son más fuertes.",
+            "c":"Cercanas y la fuerza del gradiente de presión es mayor y las velocidades del viento son más fuertes.",
+            "ans":"c",
+            "explanation":"Cuanto más estrecha sea la separación de las isobaras, más fuerte será la fuerza del gradiente de presión. Cuanto más fuerte es la fuerza del gradiente de presión, más fuerte es el viento. Por lo tanto, las isobaras muy espaciadas significan vientos fuertes y ligeros."
+        },
+        {
+            "qn":"281.- ¿Qué impide que el aire fluya directamente de las zonas de alta presión a las de baja presión?",
+            "a":"Fuerza de Coriolis.",
+            "b":"Fricción superficial.",
+            "c":"Fuerza de gradiente de presión.",
+            "ans":"a",
+            "explanation":"La fuerza del gradiente de presión impulsa el viento y es perpendicular a las isobaras de presión. Cuando se establece por primera vez una fuerza de gradiente de presión, el viento comienza a soplar de mayor a menor presión directamente a través de las isobaras. Sin embargo, en el momento en que el aire comienza a moverse, la fuerza de Coriolis lo desvía hacia la derecha. Después, el viento se desvía 90° y se sitúa en paralelo a las isobaras o contornos. En este momento, la fuerza de Coriolis equilibra exactamente la fuerza del gradiente de presión. Con las fuerzas en equilibrio, el viento permanecerá paralelo a las isobaras o contornos.\nLa respuesta (B) es incorrecta porque la fricción de la superficie mueve el aire de máximos a mínimos valores, disminuyendo la velocidad del viento, lo que disminuye el efecto de la fuerza de Coriolis. La respuesta (C) es incorrecta porque la fuerza del gradiente de presión provoca el movimiento inicial desde las zonas de alta presión hacia las de baja presión."
+        },
+        {
+            "qn":"282.- Mientras se vuela a campo traviesa, en el hemisferio norte, se experimenta un viento cruzado continuo a la izquierda el cual está asociado a un sistema de viento alto. Esto indica que usted:",
+            "a":"está volando hacia una zona de condiciones generalmente desfavorables.",
+            "b":"se encuentra volando desde una zona con condiciones meteorológicas desfavorables.",
+            "c":"no se puede determinar las condicione meteorológicas sin conocer los cambios de presión.",
+            "ans":"a",
+            "explanation":"Cuando se vuela en el hemisferio norte, experimentar un viento cruzado continuo a la izquierda indica que se está entrando en un sistema bajo presión. El viento sopla en sentido contrario a las agujas del reloj, lo que explica un viento cruzado a la izquierda. En general, un sistema de bajas presiones se asocia con el mal tiempo.\nLa respuesta (B) es incorrecta porque si se ha volado desde una zona de condiciones meteorológicas desfavorables, lo que significa que se tendría un viento cruzado a la derecha. La respuesta (C) es incorrecta porque el viento puede proporcionar una indicación de los cambios de presión y del tiempo."
+        },
+        {
+            "qn":"283.- ¿Qué afirmación es cierta con respecto a un sistema de alta o baja presión?",
+            "a":"Una zona de alta presión o cresta es un área de aire ascendente.",
+            "b":"Una zona de baja presión o vaguada es una zona de aire descendente.",
+            "c":"Una zona de alta presión o cresta es una zona de aire descendente.",
+            "ans":"c",
+            "explanation":"El aire que sale de una presión alta o cresta reduce la cantidad de aire. Las crestas, por tanto, son zonas de aire descendente.\nLa respuesta (A) es incorrecta porque el aire de alta presión desciende. La respuesta (B) es incorrecta porque el aire de baja presión asciende."
+        },
+        {
+            "qn":"284.- ¿Qué afirmación es cierta respecto a los sistemas de alta o baja presión?",
+            "a":"Una zona de alta presión o cresta es un área de aire ascendente.",
+            "b":"Una zona de bajas presiones o vaguada es una zona de aire ascendente.",
+            "c":"Tanto las zonas de alta como de baja presión se caracterizan por el aire descendente.",
+            "ans":"b",
+            "explanation":"En la superficie, cuando el aire converge en una baja presión, no puede ir hacia afuera en contra del gradiente de presión, ni puede ir hacia abajo en el suelo. Debe ir hacia arriba. Por lo tanto, una baja o vaguada es una zona de aire ascendente.\nLa respuesta (A) es incorrecta porque el aire de alta presión desciende y el de baja presión asciende. La respuesta (C) es incorrecta porque el aire de alta presión desciende y el de baja presión sube."
+        },
+        {
+            "qn":"285.- Cuando se vuela hacia una zona de bajas presiones en el hemisferio norte, la dirección y la velocidad del viento será:",
+            "a":"a la izquierda y disminuyendo.",
+            "b":"a la izquierda y aumentando.",
+            "c":"derecha y disminuyendo.",
+            "ans":"b",
+            "explanation":"En el hemisferio norte, el viento alrededor de una zona de baja es contrario a las agujas del reloj. Por lo tanto, al volar hacia el centro de una zona de baja, el viento será por la izquierda. Al volar hacia un sistema de presión, el espacio entre las isobaras disminuirá al aumentar la velocidad del viento."
+        },
+        {
+            "qn":"286.- ¿Qué afirmación es cierta en cuanto a la temperatura real del aire y la dispersión de la temperatura del punto de rocío? La dispersión de la temperatura:",
+            "a":"disminuye a medida que la humedad relativa disminuye",
+            "b":"disminuye a medida que aumenta la humedad relativa.",
+            "c":"aumenta a medida que aumenta la humedad relativa.",
+            "ans":"b",
+            "explanation":"La diferencia entre la temperatura del aire y la temperatura del punto de rocío se denomina 'dispersión'. A medida que la dispersión es menor, la humedad relativa aumenta."
+        },
+        {
+            "qn":"287.- La circulación general del aire asociada a una zona de altas presiones en el hemisferio norte es:",
+            "a":"hacia fuera, hacia abajo y en el sentido de las agujas del reloj.",
+            "b":"hacia fuera, hacia arriba y en el sentido de las agujas del reloj.",
+            "c":"hacia adentro, hacia abajo y en el sentido de las agujas del reloj.",
+            "ans":"a",
+            "explanation":"Cuando el aire intenta salir de la alta presión, es desviado hacia la derecha por la fuerza de Coriolis. Así, el viento alrededor de una alta sopla en el sentido de las agujas del reloj. El aire que sale de una zona de alta presión agota la cantidad de aire. Las crestas son zonas de aire descendente."
+        },
+        {
+            "qn":"288.- La mejor descripción de virga es:",
+            "a":"serpentinas de precipitación que se arrastran por debajo de las nubes y que se evaporan antes de llegar al suelo.",
+            "b":"torrentes de nubes de pared que se arrastran por debajo de los cumulonimbos y que se disipan antes de llegar al suelo.",
+            "c":"zonas turbulentas bajo las nubes cumulonimbos.",
+            "ans":"a",
+            "explanation":"El término 'virga' se refiere a las corrientes de precipitación que se arrastran por debajo de las nubes y que se evaporan antes de llegar al suelo.\nLa respuesta (B) es incorrecta porque la virga suele ser fina y difusa. La respuesta (C) es incorrecta porque la virga es una forma de precipitación."
+        },
+        {
+            "qn":"289.- La humedad se añade al aire mediante:",
+            "a":"sublimación y condensación.",
+            "b":"evaporación y condensación.",
+            "c":"evaporación y sublimación.",
+            "ans":"c",
+            "explanation":"La evaporación es el cambio de agua líquida a vapor de agua invisible. La sublimación es el cambio del hielo directamente a vapor de agua.\nLa respuesta (A) es incorrecta porque la condensación elimina la humedad del aire. La respuesta (B) es incorrecta porque la condensación elimina la humedad del aire."
+        },
+        {
+            "qn":"290.- Los gránulos de hielo encontrados durante el vuelo normalmente son una prueba de que:",
+            "a":"un frente cálido ha pasado.",
+            "b":"un frente cálido está a punto de pasar.",
+            "c":"hay tormentas eléctricas en la zona.",
+            "ans":"b",
+            "explanation":"La lluvia que cae desde el aire cálido de arriba a través del aire más frío de abajo puede congelarse durante su descenso, cayendo en forma de gránulos de hielo. Esto puede ocurrir siempre que exista una capa de aire más cálido por encima de una capa más fría (es decir, un frente cálido o un frente frío).\nLa respuesta (A) es incorrecta porque después del paso del frente cálido ya no habrá una capa de aire cálido sobre una capa de aire frío, lo cual es necesario para la formación de bolitas de hielo. La respuesta (C) es incorrecta porque los gránulos de hielo no provienen necesariamente de las tormentas eléctricas, sino de la lluvia que se congela a mayor altura."
+        },
+        {
+            "qn":"291.- ¿Qué indica encontrar granos de hielo a 8,000 pies?",
+            "a":"Lluvia helada a mayor altitud.",
+            "b":"Se está acercando una zona de tormentas.",
+            "c":"Se encontrará con granizo si continua su vuelo.",
+            "ans":"a",
+            "explanation":"La lluvia que cae desde el aire cálido de arriba a través del aire más frío de abajo puede congelarse durante su descenso, cayendo en forma de gránulos de hielo. Esto puede ocurrir siempre que exista una capa de aire más cálido por encima de una capa más fría (es decir, un frente cálido o un frente frío).\nLa respuesta (B) es incorrecta porque la lluvia helada puede producirse sin tormentas eléctricas. La respuesta (C) es incorrecta porque las bolas de hielo son una forma de granizo."
+        },
+        {
+            "qn":"292.- Los gránulos de hielo encontrados durante el vuelo son normalmente una prueba de que:",
+            "a":"ha pasado un frente frío.",
+            "b":"hay tormentas eléctricas en la zona.",
+            "c":"la lluvia helada existe a mayor altitud.",
+            "ans":"c",
+            "explanation":"La lluvia que cae desde el aire cálido de arriba a través del aire más frío de abajo puede congelarse durante su descenso, cayendo en forma de gránulos de hielo. Esto puede ocurrir siempre que exista una capa de aire más cálido por encima de una capa más fría (es decir, un frente cálido o un frente frío)."
+        },
+        {
+            "qn":"293.- Cuando se pronostica un aire condicionalmente inestable con alto contenido de humedady una temperatura superficial muy cálida ¿Qué tipo de tiempo se puede esperar?",
+            "a":"Fuertes corrientes ascendentes y nubes grandes.",
+            "b":"Visibilidad restringida cerca de la superficie en una zona amplia.",
+            "c":"Fuertes corrientes ascendentes y nubes de desarrollo vertical.",
+            "ans":"c",
+            "explanation":"Las características del aire inestable son las nubes cumulonimbos, las precipitaciones lluviosas, la turbulencia y la buena visibilidad, excepto en los obstáculos que soplan.\nLa respuesta (A) es incorrecta porque las nubes de gran tamaño son características del aire estable. La respuesta (B) es incorrecta porque la visibilidad restringida es característica del aire estable."
+        },
+        {
+            "qn":"294.- ¿Cuál es la base aproximada de los cúmulos si la temperatura a 2,000 Pies MSL es de 10°C y el punto de rocío es de 1°C?",
+            "a":"3,000 Pies MSL.",
+            "b":"4,000 Pies MSL.",
+            "c":"6,000 Pies MSL.",
+            "ans":"c",
+            "explanation":"En una corriente de convección, la temperatura y el punto de rocío convergen a unos 2,5°C por cada 1.000 pies. Una estimación de las bases de las nubes convectivas se puede encontrar dividiendo la convergencia en la dispersión de la temperatura.\n1. (10 - 1) ÷ 2,5 = 3,6 x 1.000 = 3.600 pies de base\n1. 2.000 pies MSL + 3.600 pies AGL = 5.600 pies MSL."
+        },
+        {
+            "qn":"295.- Si las nubes se forman como resultado de un aire muy estable y húmedo que se ve obligado a ascender por la ladera de una montaña, las nubes serán:",
+            "a":"nubes tipo cirrus sin desarrollo vertical ni turbulencia.",
+            "b":"nubes tipo cúmulo con considerable desarrollo vertical y turbulencia.",
+            "c":"nubes tipo estratos con poco desarrollo vertical y poca o ninguna turbulencia.",
+            "ans":"c",
+            "explanation":"El aire estable se resiste al movimiento ascendente; por lo tanto, se producen nubes estratificadas.\nLa respuesta (A) es incorrecta porque las nubes tipo cirrus, son altos y están compuestos por cristales de hielo. La respuesta (B) es incorrecta porque el aire inestable provoca un desarrollo vertical."
+        },
+        {
+            "qn":"296.- ¿Qué determina la estructura o el tipo de nubes que se formarán como consecuencia del ascenso forzado del aire?",
+            "a":"El método por el que se eleva el aire.",
+            "b":"La estabilidad del aire antes de que se produzca la elevación.",
+            "c":"La humedad relativa del aire después de la elevación.",
+            "ans":"b",
+            "explanation":"El hecho de que el aire sea estable o inestable dentro de una capa determina en gran medida la estructura de las nubes. Cuando el aire estable es forzado hacia arriba, el aire tiende a retener el flujo horizontal y cualquier nubosidad es plana y estratificada. Cuando el aire inestable es forzado hacia arriba, la perturbación crece y cualquier nubosidad resultante muestra un amplio desarrollo vertical."
+        },
+        {
+            "qn":"297.- ¿Cuáles son las características del aire estable?",
+            "a":"Buena visibilidad; precipitación constante; nubes estratos.",
+            "b":"Poca visibilidad; precipitaciones constantes; nubes estratos.",
+            "c":"Poca visibilidad; precipitaciones intermitentes; cúmulos de nubes.",
+            "ans":"b",
+            "explanation":"Las características del aire estable son las nubes estratiformes y la niebla, las precipitaciones continuas, el aire suave y la visibilidad de buena a mala en la niebla y el humo.\nLa respuesta (A) es incorrecta porque la buena visibilidad es característica del aire inestable. La respuesta (C) es incorrecta porque las precipitaciones intermitentes y los cúmulos son característicos del aire inestable."
+        },
+        {
+            "qn":"298.- ¿Cuál de las siguientes disminuiría la estabilidad de una masa de aire?",
+            "a":"Calentamiento desde abajo.",
+            "b":"Enfriamiento desde abajo.",
+            "c":"Disminución del vapor de agua.",
+            "ans":"a",
+            "explanation":"Un cambio en la tasa de lapso de la temperatura ambiente de una masa de aire determinará su estabilidad. El calentamiento o enfriamiento de la superficie en la parte superior puede hacer que el aire sea más inestable.\nLa respuesta (B) es incorrecta porque el enfriamiento desde abajo aumenta la estabilidad. La respuesta (B) es incorrecta porque una disminución del vapor de agua reduce el punto de rocío del aire, pero no afecta a la estabilidad."
+        },
+        {
+            "qn":"299.- ¿A partir de que medición de la atmósfera se puede determinar la estabilidad?",
+            "a":"Presión atmosférica.",
+            "b":"El gradiente térmico vertical.",
+            "c":"El gradiente adiabático seco.",
+            "ans":"b",
+            "explanation":"Un cambio en la tasa de lapso de la temperatura ambiente de una masa de aire determinará su estabilidad. El calentamiento o enfriamiento de la superficie en el aire puede hacer que el aire sea más inestable. Por otro lado, el enfriamiento o el calentamiento de la superficie en el aire suele inclinar la balanza hacia una mayor estabilidad.\nLa respuesta (A) es incorrecta porque la presión atmosférica afecta a la temperatura y a los movimientos del aire, pero no determina la estabilidad de la atmósfera. La respuesta (C) es incorrecta porque la tasa de lapso adiabático seco es una tasa constante."
+        },
+        {
+            "qn":"300.- ¿Qué tipo de tiempo se puede esperar del aire húmedo e inestable y de las temperaturas superficiales muy cálidas?",
+            "a":"Nieblas y nubes bajas.",
+            "b":"Precipitaciones fuertes y continuas.",
+            "c":"Fuertes corrientes ascendentes y nubes cumulonimbos.",
+            "ans":"c",
+            "explanation":"Las características del aire inestable son las nubes cumulonimbo, las precipitaciones lluviosas, la turbulencia y la buena visibilidad, excepto en los obstáculos que soplan.\nLa respuesta (A) es incorrecta porque la niebla y los estratos son características del aire estable. La respuesta (B) es incorrecta porque las precipitaciones continuas son características del aire estable."
+        },
+        {
+            "qn":"301.- ¿Qué aumentaría la estabilidad de una masa de aire?",
+            "a":"Calentamiento desde abajo.",
+            "b":"Enfriamiento desde abajo.",
+            "c":"Disminución del vapor de agua.",
+            "ans":"b",
+            "explanation":"Un cambio en la tasa de lapso de la temperatura ambiente de una masa de aire determinará su estabilidad. El enfriamiento o calentamiento de la superficie en el aire suele inclinar la balanza hacia una mayor estabilidad.\nLa respuesta (A) es incorrecta porque el calentamiento desde abajo disminuye la estabilidad. La respuesta (C) es incorrecta porque una disminución del vapor de agua reduce el punto de rocío del aire, pero no afecta a la estabilidad."
+        },
+        {
+            "qn":"302.- Las condiciones necesarias para la formación de nubes estratiformes son una acción de elevación y:",
+            "a":"aire inestable y seco.",
+            "b":"aire estable y húmedo.",
+            "c":"aire inestable y húmedo.",
+            "ans":"b",
+            "explanation":"El aire estable y húmedo y el enfriamiento adiabático son necesarios para formar nubes estratiformes."
+        },
+        {
+            "qn":"303.- ¿Qué tipos de nubes indicarían una turbulencia convectiva?",
+            "a":"Nubes tipo cirrus.",
+            "b":"Nubes tipo nimbostrato.",
+            "c":"Nubes tipo cúmulos.",
+            "ans":"c",
+            "explanation":"Los cúmulos de buen tiempo, que suelen verse en las tardes soleadas, son señales en el cielo que indican turbulencia convectiva. Las alturas verticales van desde los cúmulos de buen tiempo poco profundos hasta los gigantescos cumulonimbos de tormenta.\nLa respuesta (A) es incorrecta porque los cirros son nubes altas formadas por cristales de hielo y no se generan por ninguna actividad convectiva. La respuesta (B) es incorrecta porque las nubes nimbostratos son nubes planas de lluvia, formadas en aire estable y no producen actividad convectiva ni turbulencia."
+        },
+        {
+            "qn":"304.- La presencia de nubes lenticulares altocúmulos es un buen indicio de:",
+            "a":"formación de hielo lenticular en aire tranquilo.",
+            "b":"turbulencia muy fuerte.",
+            "c":"condiciones de fuerte helada.",
+            "ans":"b",
+            "explanation":"Las nubes lenticulares en pie sugieren una onda de montaña; espere turbulencias a muchos kilómetros a sotavento de las montañas."
+        },
+        {
+            "qn":"305.- La formación de nubes predominantemente estratiformes o predominantemente cumulonimbos depende de:",
+            "a":"la fuente de elevación.",
+            "b":"la estabilidad del aire que se eleva.",
+            "c":"la temperatura del aire que se eleva.",
+            "ans":"b",
+            "explanation":"Cuando el aire estable es forzado a subir, el aire tiende a retener el flujo horizontal. Cualquier nubosidad es plana y estratificada. Cuando el aire inestable es forzado hacia arriba, la perturbación crece, y cualquier nubosidad resultante muestra un amplio desarrollo vertical.\nLa respuesta (A) es incorrecta porque la estabilidad del aire determina el tipo de nubes que se forman. La respuesta (C) es incorrecta porque la temperatura del aire determina la altitud de las nubes que se forman."
+        },
+        {
+            "qn":"306.- ¿Qué combinación de variables meteorológicas produciría probablemente nubes de tipo cumuliforme, buena visibilidad y lluvia torrencial?",
+            "a":"Aire estable, húmedo y elevación orográfica.",
+            "b":"Aire inestable, húmedo y elevación orográfica.",
+            "c":"Aire inestable, húmedo y sin mecanismo de elevación.",
+            "ans":"b",
+            "explanation":"Las características del aire inestable y húmedo son las nubes cumuliformes, las precipitaciones lluviosas, la turbulencia y la buena visibilidad, excepto en los obstáculos que soplan. La 'elevación orográfica' es la acción de elevación producida por un objeto físico, como la ladera de una montaña, que fuerza el aire hacia arriba.\nLa respuesta (A) es incorrecta porque si el aire es estable, se formarán precipitaciones constantes y nubes estratiformes. La respuesta (C) es incorrecta porque debe existir un mecanismo de elevación para que se formen nubes cumuliformes y lluvias."
+        },
+        {
+            "qn":"307.- ¿Cuál es una característica del aire estable?",
+            "a":"Nubes estratiformes.",
+            "b":"Cúmulos de buen tiempo.",
+            "c":"Disminución rápida de la temperatura con la altitud.",
+            "ans":"a",
+            "explanation":"Las características del aire estable son las nubes estratiformes y la niebla, las precipitaciones continuas, el aire suave y la visibilidad de regular a mala en la bruma y el humo.\nLa respuesta (B) es incorrecta porque los cúmulos son característicos del aire inestable. La respuesta (C) es incorrecta porque un rápido descenso de la temperatura con la altitud indica una alta tasa de lapso y es característico del aire inestable."
+        },
+        {
+            "qn":"308.- Una masa de aire húmeda e inestable se caracteriza por:",
+            "a":"Poca visibilidad y aire suave.",
+            "b":"Nubes cumulonimbos y precipitaciones en chubasco.",
+            "c":"Nubes estratiformes y precipitaciones continuas.",
+            "ans":"b",
+            "explanation":"Las características del aire inestable son las nubes cumuliformes, las precipitaciones en chubasco, la turbulencia y la buena visibilidad, excepto por turbulencias mecánicas.\nLa respuesta (A) es incorrecta porque la mala visibilidad y el aire suave son características del aire estable. La respuesta (C) es incorrecta porque las nubes estratiformes y las precipitaciones continuas son características del aire estable."
+        },
+        {
+            "qn":"309- ¿Cuáles son las características de una atmosfera inestable?",
+            "a":"Una masa de aire fresco y seco.",
+            "b":"Una masa de aire cálido y húmedo.",
+            "c":"Aire descendente en el hemisferio norte.",
+            "ans":"b",
+            "explanation":"Las características del aire inestable son las nubes negras, las precipitaciones lluviosas, la turbulencia y la buena visibilidad, excepto en los obstáculos que soplan."
+        },
+        {
+            "qn":"310.- Cuando una masa de aire es estable ¿cuál de estas condiciones es más probable que exista?",
+            "a":"Numerosos cúmulos y cumulonimbos.",
+            "b":"Cambio de turbulencia de moderada a severa en los niveles inferiores.",
+            "c":"Calima, el polvo, la bruma, etc. Se concentran en los niveles inferiores con la consiguiente mala visibilidad.",
+            "ans":"c",
+            "explanation":"Las características típicas de una masa de aire estable son:\n- Nubes estratiformes y niebla\n- Precipitaciones continuas\n- Aire suave\n- Visibilidad de regular a mala por bruma y calima."
+        },
+        {
+            "qn":"311.- ¿Cuál es una característica del aire estable?",
+            "a":"Nubes cumulonimbo.",
+            "b":"Excelente visibilidad.",
+            "c":"Visibilidad restringida.",
+            "ans":"c",
+            "explanation":"Las características típicas de una masa de aire estable son:\n-Nubes estratiformes y niebla\n-Precipitaciones continuas\n-Aire suave\n-Visibilidad de regular o mala en la niebla"
+        },
+        {
+            "qn":"312.- ¿Cuál es una característica típica de una masa de aire estable?",
+            "a":"Nubes cumulonimbos.",
+            "b":"Precipitaciones en chubasco.",
+            "c":"Precipitaciones continuas.",
+            "ans":"c",
+            "explanation":"Las características típicas de una masa de aire estable son:\n- Nubes estratiformes y niebla\n- Precipitaciones continuas\n- Aire suave\n- Visibilidad de regular a mala en la niebla y la calima."
+        },
+        {
+            "qn":"313.- ¿Cuál afirmación es verdadera sobre la oclusión de un frente frío? El aire por delante del frente cálido:",
+            "a":"es más frío que el aire que está detrás del frente frío que lo adelanta.",
+            "b":"es más cálido que el aire detrás del frente frío que lo sobrepasa.",
+            "c":"tiene la misma temperatura que el aire que está detrás del frente frío que lo adelanta.",
+            "ans":"b",
+            "explanation":"En la oclusión del frente frío, el aire más frío está debajo del frente frío. Cuando sobrepasa el frente cálido, levanta el frente cálido en el aire y el aire frío sustituye al aire frío en la superficie."
+        },
+        {
+            "qn":"314.- ¿Cuáles son las características de una masa de aire frío que se desplaza sobre una superficie cálida?",
+            "a":"Nubes cumulonimbos, turbulencia y poca visibilidad.",
+            "b":"Nubes cumulonimbos, turbulencia y buena visibilidad.",
+            "c":"Nubes estratiformes, aire suave y poca visibilidad.",
+            "ans":"b",
+            "explanation":"El aire frío que se mueve sobre una superficie cálida se calienta desde abajo, generando inestabilidad y aumentando la posibilidad de chubascos. El aire inestable se caracteriza por las nubes cumuliformes, las turbulencias y la buena visibilidad."
+        },
+        {
+            "qn":"315.- Las condiciones necesarias para la formación de cumulonimbos son una acción de elevación y:",
+            "a":"aire inestable y seco.",
+            "b":"aire estable y húmedo.",
+            "c":"aire inestable y húmedo.",
+            "ans":"c",
+            "explanation":"Para que se formen los cumulonimbos, el aire debe tener suficiente vapor de agua, una tasa de lapso inestable y un impulso inicial hacia arriba (elevación) para poner en marcha el proceso de la tormenta."
+        },
+        {
+            "qn":"316.- La niebla producida por la actividad frontal es el resultado de la saturación debido a:",
+            "a":"enfriamiento nocturno.",
+            "b":"enfriamiento adiabático.",
+            "c":"evaporación de las precipitaciones.",
+            "ans":"c",
+            "explanation":"Cuando la lluvia o llovizna relativamente cálida cae a través de aire frío, la evaporación de la precipitación satura el aire frío y forma niebla.\nLa respuesta (A) es incorrecta porque el enfriamiento nocturno produce niebla por radiación. La respuesta (B) es incorrecta porque el enfriamiento adiabático produce niebla de ladera o de montaña."
+        },
+        {
+            "qn":"317.- ¿Cuál es una característica importante respecto a la cizalladura del viento?",
+            "a":"Sólo está presente en los niveles inferiores y existe en sentido horizontal.",
+            "b":"Está presente en cualquier nivel y sólo existe en sentido vertical.",
+            "c":"Puede estar presente en cualquier nivel y puede existir tanto en sentido horizontal como vertical.",
+            "ans":"c",
+            "explanation":"La cizalladura del viento puede estar asociada a un cambio de viento o a un gradiente de velocidad del viento en cualquier nivel de la atmósfera. Puede estar asociada a una inversión de la temperatura en niveles bajos, en una zona frontal, o a una turbulencia de aire claro (CAT) en niveles altos asociados a una corriente en chorro o a una circulación fuerte.\nLa respuesta (A) es incorrecta porque la cizalladura del viento se produce tanto vertical como horizontalmente, y en todas las altitudes. La respuesta (B) es incorrecta porque la cizalladura del viento se produce tanto vertical como horizontalmente, y en todas las altitudes."
+        },
+        {
+            "qn":"318.- Es habitual encontrar una cizalladura de viento peligrosa:",
+            "a":"cerca de la actividad frontal cálida o estacionaria.",
+            "b":"cuando la velocidad del viento es superior a 35 nudos.",
+            "c":"en áreas de inversión de temperatura y cerca de tormentas.",
+            "ans":"c",
+            "explanation":"A menudo hay un viento fuerte justo por encima de la parte superior de una capa de inversión. Volar dentro o fuera de este viento induce una situación de cizalladura. Los fenómenos meteorológicos más destacados que causan problemas de cizalladura del viento a bajo nivel son las tormentas eléctricas y ciertos sistemas frontales en el aeropuerto o cerca de él.\nLa respuesta (A) es incorrecta porque la cizalladura del viento peligrosa se encuentra más comúnmente cerca de las inversiones y las tormentas eléctricas. La respuesta (B) es incorrecta porque el viento fuerte no significa que siempre habrá cizalladura del viento; el viento debe estar en diferentes direcciones."
+        },
+        {
+            "qn":"319.- La cizalladura del viento a bajo nivel puede ocurrir cuando:",
+            "a":"los vientos de superficie son ligeros y variables.",
+            "b":"hay una inversión de temperatura en niveles bajos con fuertes vientos por encima de la inversión.",
+            "c":"Los vientos de superficie son superiores a 15 nudos y no hay cambios en la dirección y la velocidad del viento con la altura.",
+            "ans":"b",
+            "explanation":"Al despegar o aterrizar con viento en calma y con cielo despejado unas horas antes o después del amanecer, prepárese para una inversión de temperatura cerca del suelo. Puede estar relativamente seguro de que existe una zona de cizalladura en la inversión si sabe que el viento a 2.000 a 4.000 pies tiene una velocidad de 25 nudos o más. Deje un margen de velocidad aerodinámica por encima de la velocidad normal de ascenso o aproximación para aliviar el peligro de entrar en pérdida en caso de turbulencia o cambio repentino de la velocidad del viento."
+        },
+        {
+            "qn":"320.- Si se encuentra una inversión de temperatura inmediatamente después del despegue o durante la aproximación al aterrizaje, existe un peligro potencial debido a:",
+            "a":"la cizalladura del viento.",
+            "b":"los fuertes vientos de superficie.",
+            "c":"las fuertes corrientes convectivas.",
+            "ans":"a",
+            "explanation":"Puede estar relativamente seguro de que hay una zona de cizalladura en la inversión si se sabe que el viento a 2,000 a 4,000 pies con una velocidad de 25 nudos o más. Deje un margen de velocidad aérea por encima de la velocidad normal de ascenso o aproximación para aliviar el peligro de una pérdida, en caso de turbulencia o cambio repentino en la velocidad del viento.\nLa respuesta (B) es incorrecta porque los vientos fuertes de superficie no representan un peligro tan grande como la cizalladura del viento. La respuesta (C) es incorrecta porque una inversión de temperatura no genera fuertes corrientes convectivas."
+        },
+        {
+            "qn":"321.- DADO:\nVientos a 3.000 pies AGL 30 Nudos. Vientos en superficie: Calmados. Durante la aproximación para el aterrizaje bajo cielos despejados con turbulencia convectiva unas horas después del amanecer, se debe:",
+            "a":"Aumentar la velocidad de aproximación ligeramente por encima de lo normal para evitar la entrada en pérdida.",
+            "b":"Mantener la velocidad de aproximación en el nivel normal o ligeramente inferior para compensar la flotación.",
+            "c":"No alterar la velocidad del aire de aproximación, estas condiciones son casi ideales.",
+            "ans":"a",
+            "explanation":"Al despegar o aterrizar con viento en calma y con cielo despejado unas horas antes o después del amanecer, prepárese para una inversión de temperatura cerca del suelo. Puede estar relativamente seguro de que existe una zona de cizalladura en la inversión si sabe que el viento a 2.000 o 4.000 pies tiene una velocidad de 25 nudos o más. Aumente la velocidad del aire ligeramente por encima de la velocidad normal de ascenso o aproximación para aliviar el peligro de una pérdida en caso de turbulencia o cambio repentino en la velocidad del viento."
+        },
+        {
+            "qn":"322.- Las corrientes convectivas son más activas en las tardes cálidas de verano, cuando los vientos son:",
+            "a":"bajos.",
+            "b":"moderados.",
+            "c":"fuertes.",
+            "ans":"a",
+            "explanation":"Las corrientes convectivas son más activas en las tardes cálidas de verano, cuando los vientos son ligeros. El aire calentado en la superficie crea una capa inestable poco profunda y el aire caliente es forzado a subir. La convección aumenta en fuerza y a mayores alturas a medida que aumenta el calentamiento de la superficie.\nLa respuesta (B) es incorrecta porque los vientos moderados y fuertes interrumpen el movimiento vertical de las corrientes convectivas. La respuesta (C) es incorrecta porque los vientos moderados y fuertes interrumpen el movimiento vertical de las corrientes convectivas."
+        },
+        {
+            "qn":"323.- Cuando se vuele a baja altura sobre terrenos accidentados, crestas o cordilleras, el mayor peligro potencial de las corrientes de aire turbulentas se encontrará normalmente en el:",
+            "a":"sotavento cuando se vuela con viento de cola.",
+            "b":"sotavento cuando se vuela contra el viento.",
+            "c":"barlovento cuando se vuela contra el viento.",
+            "ans":"b",
+            "explanation":"En el lado de sotavento se pueden encontrar corrientes descendentes peligrosas.\nLa respuesta (A) es incorrecta porque con un viento de cola, se estaría volando lejos de la montaña con el viento. La respuesta (C) es incorrecta porque estarías volando en el aire que se eleva en el lado de barlovento."
+        },
+        {
+            "qn":"324.- Durante una aproximación, el medio más importante y más fácilmente reconocible para ser alertado de una posible cizalladura del viento es la monitorización de la:",
+            "a":"Cantidad de compensador requerido para aliviar las presiones de control.",
+            "b":"Cambios de rumbo necesarios para permanecer en línea central de la pista.",
+            "c":"Potencia y velocidad vertical necesarias para mantenerse en la senda de planeo adecuada.",
+            "ans":"c",
+            "explanation":"Dado que la velocidad de descenso en la pendiente de planeo está directamente relacionada con la velocidad de avance, una velocidad de descenso alta indicaría un fuerte viento de cola. A la inversa, una tasa de descenso baja indica un viento fuerte en contra. La potencia necesaria para mantener la pendiente de planeo también será diferente de las condiciones típicas sin cizalladura. Se necesitará menos potencia de lo normal para mantener la pendiente de planeo cuando haya un viento de cola y se necesitará más potencia para un viento fuerte en contra."
+        },
+        {
+            "qn":"325.- Durante la salida, en condiciones de sospecha de cizalladura del viento en niveles bajos, una disminución repentina del viento en contra provocará:",
+            "a":"una pérdida de velocidad del aire igual a la disminución de la velocidad del viento.",
+            "b":"una ganancia de velocidad del aire igual a la disminución de la velocidad del viento.",
+            "c":"no hay cambios en la velocidad del aire, pero la velocidad con respecto al suelo disminuirá.",
+            "ans":"a",
+            "explanation":"La peor situación en la salida ocurre cuando la aeronave se encuentra con un viento de cola que aumenta rápidamente, un viento de frente que disminuye y/o una corriente descendente. El despegue bajo estas circunstancias llevaría a una condición de rendimiento disminuido. Un viento de cola creciente o un viento de frente decreciente, cuando se encuentra, causará una disminución de la velocidad aérea indicada. La aeronave inicialmente se inclinará hacia abajo debido a la disminución de la sustentación en proporción a la pérdida de velocidad del aire. Después de encontrar la cizalladura, si el viento permanece constante, la velocidad de avance de la aeronave aumentará gradualmente y la velocidad aérea indicada volverá a su valor original.\nLa respuesta (B) es incorrecta porque una disminución repentina del viento en contra provocará una pérdida de velocidad aerodinámica. La respuesta (C) es incorrecta porque hay una pérdida inicial de velocidad del aire, seguida de un aumento de la velocidad en tierra."
+        },
+        {
+            "qn":"326.- ¿Qué situación es más probable que produzca una precipitación helada? La lluvia que cae del aire que tiene una temperatura de:",
+            "a":"32°F menos en aire con una temperatura superior a 32 °F.",
+            "b":"0°C o menos en un aire con una temperatura de 0 °C o más.",
+            "c":"Más de 32°F en el aire que tiene una temperatura de 32 °F o menos.",
+            "ans":"c",
+            "explanation":"La lluvia que cae a través de un aire más frío puede sobre enfriarse, congelándose al impactar como lluvia helada, o puede congelarse durante su descenso, cayendo en forma de gránulos de hielo. El agua puede congelarse a 0°C o 32°F."
+        },
+        {
+            "qn":"327.- ¿Qué afirmación es cierta sobre los peligros del granizo?",
+            "a":"Los daños del granizo en vuelo horizontal son mínimos debido al movimiento vertical del granizo en las nubes.",
+            "b":"La lluvia en la superficie es una indicación fiable de que no hay granizo en el aire.",
+            "c":"Los granizos pueden encontrarse en el aire a varios kilómetros de una tormenta.",
+            "ans":"c",
+            "explanation":"Los granizos pueden caer a cierta distancia del núcleo de la tormenta. Se ha observado la caída de granizo en el aire libre a varios kilómetros de la tormenta principal.\nLa respuesta (A) es incorrecta porque el granizo es uno de los mayores peligros para los aviones. La respuesta (B) es incorrecta porque la lluvia en la superficie no significa la ausencia de granizo en el aire."
+        },
+        {
+            "qn":"328.- El granizado es más probable que se asocie con:",
+            "a":"nubes cúmulos.",
+            "b":"nubes cumulonimbos.",
+            "c":"nubes estratocúmulos.",
+            "ans":"b",
+            "explanation":"Se debe prevenir la posibilidad de que caiga granizo con cualquier tormenta, especialmente bajo el yunque de un gran cumulonimbo."
+        },
+        {
+            "qn":"329.- Las condiciones meteorológicas más severas, como los vientos destructivos, el granizo intenso y los tornados, suelen estar asociadas a:",
+            "a":"frentes cálidos de movimiento lento que se inclinan por encima de la tropopausa.",
+            "b":"líneas de borrasca.",
+            "c":"frentes ocluidos de rápido movimiento.",
+            "ans":"b",
+            "explanation":"Una línea de borrasca es una banda estrecha no frontal de tormentas activas. A menudo contiene fuertes tormentas estacionarias y representa el peligro meteorológico más intenso para las aeronaves.\nLa respuesta (A) es incorrecta porque los frentes cálidos no suelen producir tiempo severo. La respuesta (C) es incorrecta porque el tiempo producido por los frentes ocluidos no es tan severo como una línea de borrasca."
+        },
+        {
+            "qn":"330.- De las siguientes afirmaciones, ¿cuál es correcta en relación con la turbulencia asociadaa las tormentas eléctricas?",
+            "a":"Fuera de la nube, la turbulencia de cizalladura puede encontrarse a 50 millas lateralmente de una tormenta severa.",
+            "b":"La turbulencia de cizalladura sólo se encuentra en el interior de los cumulonimbos o en un radio de 8 kilómetros de estos.",
+            "c":"Fuera de la nube, la turbulencia de cizalladura puede encontrarse a 20 millas lateralmente de una tormenta severa.",
+            "ans":"c",
+            "explanation":"Las turbulencias peligrosas están presentes en todas las tormentas eléctricas, y una tormenta eléctrica severa puede dañar un fuselaje. La turbulencia más fuerte dentro de las nubes ocurre con la cizalladura entre las corrientes ascendentes y descendentes. Fuera de las nubes, se han encontrado turbulencias de cizalladura a varios miles de pies por encima y a 20 millas lateralmente de una tormenta severa."
+        },
+        {
+            "qn":"331.- Si el radar aéreo indica un eco de tormenta extremadamente intenso, esta tormenta debe evitarse a una distancia de al menos:",
+            "a":"20 millas.",
+            "b":"10 millas.",
+            "c":"5 millas.",
+            "ans":"a",
+            "explanation":"Si el uso del radar aéreo indica ecos extremadamente intensos, deben evitarse al menos a 20 millas."
+        },
+        {
+            "qn":"332.- ¿Qué afirmación es cierta respecto a las líneas de borrasca?",
+            "a":"Siempre se asocian a los frentes fríos.",
+            "b":"Son lentos en su formación, pero rápidos en su movimiento.",
+            "c":"No son frontales y a menudo contienen tormentas severas y estables.",
+            "ans":"c",
+            "explanation":"Una línea de borrasca es una banda estrecha no frontal de tormentas activas. A menudo contiene tormentas eléctricas severas de estado estable y presenta el peligro meteorológico más intenso para las aeronaves.\nLa respuesta (A) es incorrecta porque las líneas de borrasca pueden formarse en cualquier zona de aire inestable, pero normalmente se encuentran delante de los frentes fríos. La respuesta (B) es incorrecta porque las borrascas suelen formarse rápidamente."
+        },
+        {
+            "qn":"333.- ¿Qué afirmación es cierta respecto a las líneas de borrasca?",
+            "a":"Se forman lentamente, pero se mueven rápidamente.",
+            "b":"Se asocia únicamente a los sistemas frontales.",
+            "c":"Ofrecen los riesgos meteorológicos más intensos paras las aeronaves.",
+            "ans":"c",
+            "explanation":"Una línea de borrasca es una banda estrecha no frontal de tormentas activas. Suele contener fuertes tormentas estables y presenta el peligro meteorológico más intenso para las aeronaves.\nLa respuesta (A) es incorrecta porque las líneas de borrasca suelen formarse rápidamente. La respuesta (B) es incorrecta porque las líneas de borrasca pueden formarse en cualquier zona de aire inestable, pero normalmente se encuentran delante de los frentes fríos."
+        },
+        {
+            "qn":"334.- Seleccione la afirmación correcta respecto al ciclo de vida de una tormenta eléctrica:",
+            "a":"Las corrientes de aire continúan desarrollándose durante la fase de disipación de una tormenta.",
+            "b":"El comienzo de la lluvia en la superficie de la tierra indica la fase de madurez de la tormenta.",
+            "c":"El comienzo de la lluvia en la superficie de la tierra indica la fase de disipación de la tormenta.",
+            "ans":"b",
+            "explanation":"La etapa de madurez de una tormenta eléctrica comienza cuando la precipitación empieza a caer desde la base de las nubes. Las corrientes descendentes alcanzan velocidades que pueden superar los 2,500 pies por minuto. Mientras tanto, las corrientes ascendentes alcanzan un máximo con velocidades que pueden superar los 6,000 pies por minuto. Las corrientes ascendentes y descendentes en estrecha proximidad crean una fuerte cizalladura vertical y un entorno muy turbulento."
+        },
+        {
+            "qn":"335.- ¿Qué signos visibles indican una turbulencia extrema en las tormentas?",
+            "a":"Base de las nubes cerca de la superficie, fuerte lluvia y granizo.",
+            "b":"Bajo techo y visibilidad, granizo y precipitación estática.",
+            "c":"Nubes cumulonimbos, relámpagos muy frecuentes y nubes en rodillo (Arcus).",
+            "ans":"c",
+            "explanation":"Las nubes cumulonimbos representan una masa de aire inestable que indica condiciones turbulentas. Cuanto más frecuentes sean los rayos, más grave será la tormenta. La nube Arcus es más frecuente en las tormentas frontales frías o en la línea de borrasca y significa una zona extremadamente turbulenta."
+        },
+        {
+            "qn":"336.- ¿Qué fenómeno meteorológico indica el comienzo de la fase de madurez de unatormenta?",
+            "a":"El comienzo de la lluvia.",
+            "b":"El aspecto de la parte superior de un yunque.",
+            "c":"La tasa de crecimiento de la nube es máxima.",
+            "ans":"a",
+            "explanation":"La etapa de madurez de una tormenta eléctrica comienza cuando la precipitación empieza a caer desde la base de las nubes. Las corrientes descendentes alcanzan velocidades que pueden superar los 2,500 pies por minuto. Mientras tanto, las corrientes ascendentes alcanzan un máximo con velocidades que pueden superar los 6,000 pies por minuto.\nLa respuesta (B) es incorrecta porque la cima del yunque aparece durante la etapa de maduración, pero no necesariamente al principio. La respuesta (C) es incorrecta porque la máxima velocidad de crecimiento de las nubes se produce entre la mitad y el final de la etapa madura."
+        },
+        {
+            "qn":"337.- ¿Qué característica se asocia normalmente a la fase de cúmulo de una tormentaeléctrica?",
+            "a":"Nube de rollos.",
+            "b":"Corriente ascendente continua.",
+            "c":"Comienza a llover en la superficie.",
+            "ans":"b",
+            "explanation":"La característica principal de la etapa de cúmulo de una tormenta eléctrica es una corriente ascendente continua.\nLa respuesta (A) es incorrecta porque la nube rodante y el comienzo de la lluvia en la superficie son características de la etapa madura. La respuesta (C) es incorrecta porque la nube rodante y el comienzo de la lluvia en la superficie son características de la etapa madura."
+        },
+        {
+            "qn":"338.- Durante el ciclo de vida de una tormenta eléctrica, ¿Qué etapa se caracteriza predominante por las corrientes descendentes?",
+            "a":"Madurez.",
+            "b":"Cúmulo.",
+            "c":"Disipación.",
+            "ans":"c",
+            "explanation":"Las corrientes descendentes caracterizan la etapa de disipación de la célula de tormenta.\nLa respuesta (A) es incorrecta porque la etapa de madurez tiene tanto corrientes ascendentes como descendentes. La respuesta (B) es incorrecta porque la etapa de desarrollo o cúmulo tiene principalmente corrientes ascendentes."
+        },
+        {
+            "qn":"339.- ¿Qué distancia mínima debe existir entre los ecos intensos del radar antes de intentar volar entre estas tormentas?",
+            "a":"20 millas.",
+            "b":"30 millas.",
+            "c":"40 millas.",
+            "ans":"c",
+            "explanation":"El piloto debe evitar volar entre ecos muy intensos a menos que estén separados por al menos 40 millas."
+        },
+        {
+            "qn":"340.- Las tormentas eléctricas identificadas como severas o que dan un eco de radar intenso, ¿A qué distancia deben evitarse?",
+            "a":"5 millas.",
+            "b":"Al menos 25 millas.",
+            "c":"Al menos 20 millas.",
+            "ans":"c",
+            "explanation":"Evite por lo menos a 20 millas cualquier tormenta eléctrica identificada como severa o que dé un eco intenso en el radar. Esto es especialmente cierto bajo el yunque de un gran cumulonimbo."
+        },
+        {
+            "qn":"341.- Las mayores amenazas para una aeronave que opera en la proximidad de tormentas eléctricas son:",
+            "a":"truenos y fuertes lluvias.",
+            "b":"granizos y las turbulencias.",
+            "c":"precipitación estática y baja visibilidad.",
+            "ans":"b",
+            "explanation":"La turbulencia peligrosa está presente en todas las tormentas eléctricas; en una tormenta eléctrica severa, puede dañar un fuselaje. El granizo compite con la turbulencia como el mayor peligro de las tormentas eléctricas para las aeronaves."
+        },
+        {
+            "qn":"342.- Usted está evitando una tormenta eléctrica que se encuentra en su trayectoria de vuelo. Está a más de 20 millas de la célula; sin embargo, está bajo el yunque de la célula. ¿Es esto un peligro?",
+            "a":"No, la distancia a la célula es segura.",
+            "b":"Sí, el granizo puede ser descargado desde el yunque.",
+            "c":"Sí, la distancia está aún en el área de disipación.",
+            "ans":"b",
+            "explanation":"Evite por lo menos 20 millas cualquier tormenta eléctrica identificada como severa o que dé un eco intenso en el radar. Esto es especialmente cierto bajo el yunque de un gran cumulonimbo donde se puede descargar granizo."
+        },
+        {
+            "qn":"343.- ¿Qué peligro en vuelo se asocia más comúnmente con los frentes cálidos?",
+            "a":"Niebla de advección.",
+            "b":"Niebla de radiación.",
+            "c":"Niebla inducida por la precipitación.",
+            "ans":"c",
+            "explanation":"Cuando una lluvia o llovizna relativamente cálida cae a través de aire frío, la evaporación de la precipitación satura el aire frío y forma niebla. La niebla inducida por la precipitación puede llegar a ser bastante densa y continuar durante un largo período de tiempo. Esta niebla puede cubrir grandes áreas, suspendiendo completamente las operaciones aéreas. Suele estar asociada a los frentes cálidos, pero puede producirse con los frentes fríos de movimiento lento y con los frentes estacionarios."
+        },
+        {
+            "qn":"344.- ¿Cuál de las siguientes afirmaciones es cierta en relación con el uso del radar meteorológico aerotransportado para el reconocimiento de determinadas condiciones meteorológicas?",
+            "a":"El radar no ofrece ninguna garantía de evitar las condiciones meteorológicas.",
+            "b":"La evasión del granizo está asegurada cuando se vuela entre los ecos más intensos y apenas se aleja de ellos.",
+            "c":"La zona despejada entre los ecos intensos indica que se puede mantener la visión de las tormentas cuando se vuela entre los ecos.",
+            "ans":"a",
+            "explanation":"El radar meteorológico solo detecta las gotas de precipitación. No detecta las diminutas gotas de las nubes. Por lo tanto, el alcance del radar no proporciona ninguna seguridad para evitar el mal tiempo, nubes o niebla.\nLa respuesta (B) es incorrecta porque el granizo puede ser lanzado a varias millas de los ecos intensos. La respuesta (C) es incorrecta porque pueden existir nubes sin precipitación entre los ecos."
+        },
+        {
+            "qn":"345.- La situación más propicia para la formación de niebla de advección es:",
+            "a":"una ligera brisa que desplaza el aire frio sobre la superficie del agua.",
+            "b":"una masa de aire que se desplaza hacia el interior desde la costa durante el invierno.",
+            "c":"una masa de aire cálido y húmedo que se asienta sobre una superficie fría en condiciones de ausencia de viento.",
+            "ans":"b",
+            "explanation":"La niebla por advección se forma cuando el aire cálido y húmedo se desplaza sobre el suelo más frío o el agua. La niebla se forma en alta mar y luego es arrastrada por el viento hacia el interior. Es más común a lo largo de las zonas costeras, pero a menudo se desarrolla en las zonas continentales.\nLa respuesta (A) es incorrecta porque describe la niebla de vapor. La respuesta (C) es incorrecta porque describe la niebla de radiación."
+        },
+        {
+            "qn":"346.- La niebla de advección se ha desplazado sobre un aeropuerto costero durante el día.\n¿Qué puede tender a disipar o elevar esta niebla en nubes bajas?",
+            "a":"Enfriamiento nocturno.",
+            "b":"Radiación superficial.",
+            "c":"Viento de 15 nudos o más fuerte.",
+            "ans":"c",
+            "explanation":"La niebla por advección se profundiza a medida que aumenta la velocidad del viento hasta unos 15 nudos. Los vientos mucho más fuertes que los 15 nudos levantan la niebla en una capa de nubes bajas o estratocúmulo.\nLa respuesta (A) es incorrecta porque el enfriamiento nocturno y la radiación superficial forman la niebla de radiación. La respuesta (B) es incorrecta porque el enfriamiento nocturno y la radiación superficial forman la niebla de radiación."
+        },
+        {
+            "qn":"347.- ¿Qué levanta la niebla de advección en las nubes bajas?",
+            "a":"Enfriamiento nocturno.",
+            "b":"La sequedad de la masa terrestre subyacente.",
+            "c":"Vientos en superficie de aproximadamente 15 nudos o más fuertes.",
+            "ans":"c",
+            "explanation":"La niebla por advección se profundiza a medida que aumenta la velocidad del viento hasta unos 15 nudos. Los vientos mucho más fuertes que los 15 nudos levantan la niebla en una capa de nubes bajas o de tipo estratocúmulo.\nLa respuesta (A) es incorrecta porque el enfriamiento nocturno y la sequedad de la masa terrestre subyacente conducen a la niebla por radiación. La respuesta (B) es incorrecta porque el enfriamiento nocturno y la sequedad de la masa terrestre subyacente provocan niebla por radiación."
+        },
+        {
+            "qn":"348.- ¿En qué se diferencian la niebla de advección, la niebla de radiación y la niebla de vapor en su formación o ubicación?",
+            "a":"La niebla por radiación se limita a las zonas terrestres; la niebla por advección es más común en las zonas costeras; la niebla de vapor se forma sobre una superficie de agua.",
+            "b":"La niebla por advección se profundiza a medida que aumenta la velocidad del viento hasta 20 nudos; la niebla de vapor requiere un viento en calma o muy ligero; la niebla por radiación se forma cuando el suelo o el agua enfrían el aire por radiación.",
+            "c":"La niebla de vapor se forma a partir del aire húmedo que se desplaza sobre una superficie más fría; la niebla de advección requiere aire frío sobre una superficie más cálida; la niebla de radiación se produce por el enfriamiento radial del suelo.",
+            "ans":"a",
+            "explanation":"La niebla por radiación se limita a las zonas terrestres porque las superficies de agua se enfrían poco por la radiación nocturna. La niebla por advección es más común a lo largo de las zonas costeras, pero a menudo se desarrolla en las zonas continentales. La niebla de vapor, también conocida como 'humo del mar', se forma en invierno cuando el aire frío y seco pasa de las zonas terrestres a las aguas oceánicas comparativamente cálidas."
+        },
+        {
+            "qn":"349.- Con respecto a la niebla de advección, ¿qué afirmación es cierta?",
+            "a":"Se desarrolla lentamente y se disipa con bastante rapidez.",
+            "b":"Se forma casi exclusivamente por la noche o cerca del amanecer.",
+            "c":"Puede aparecer repentinamente durante el día o la noche, y es más persistente que la niebla de radiación.",
+            "ans":"c",
+            "explanation":"La niebla de advección es más persistente que la niebla de radiación y puede avanzar rápidamente independientemente de la hora del día o de la noche.\nLa respuesta (A) es incorrecta porque la niebla de advección puede avanzar rápidamente independientemente de la hora del día o de la noche y es persistente. La respuesta (B) es incorrecta porque describe la niebla de radiación."
+        },
+        {
+            "qn":"350.- ¿Qué característica está asociada a la tropopausa?",
+            "a":"Altura constante sobre la tierra.",
+            "b":"Cambio abrupto en el gradiente térmico vertical.",
+            "c":"Límite superior absoluto de formación de nubes.",
+            "ans":"b",
+            "explanation":"Al ser la fina capa límite entre la troposfera y la estratosfera, la tropopausa señala un cambio abrupto en el gradiente de temperatura.\nLa respuesta (A) es incorrecta porque la tropopausa está más lejos de la superficie de la Tierra en el ecuador que en los polos. La respuesta (C) es incorrecta porque las nubes pueden formarse por encima de la tropopausa."
+        },
+        {
+            "qn":"351.- Un lugar común de turbulencia de aire claro es:",
+            "a":"En una vaguada superior en el lado polar de una corriente en chorro.",
+            "b":"Cerca de una cresta en la parte ecuatorial de un flujo de alta presión.",
+            "c":"Al sur de una cresta de alta presión orientada al este/oeste en su fase de disipación.",
+            "ans":"a",
+            "explanation":"La turbulencia de aire claro (CAT) es mayor cerca de los máximos de velocidad del viento, normalmente en los lados polares donde hay una combinación de fuerte cizalladura del viento, curvatura en el flujo y advección de aire frío asociada con contornos fuertemente curvados de fuertes vaguadas y crestas en el aire. Una ubicación frecuente del CAT es una vaguada superior en el lado frío o polar de la corriente en chorro."
+        },
+        {
+            "qn":"352.- La corriente en chorro y las turbulencias de aire claro asociadas pueden identificarse a veces visualmente en vuelo por:",
+            "a":"polvo o neblina a nivel de vuelo.",
+            "b":"largas vetas de nubes cirrus.",
+            "c":"una temperatura constante del aire exterior.",
+            "ans":"b",
+            "explanation":"Las largas vetas de nubes tipo cirrus a veces pueden ayudar al piloto a identificar visualmente la corriente en chorro y la turbulencia de aire claro asociada (CAT).\nLa respuesta (A) es incorrecta porque el polvo o la bruma indican que no hay suficiente viento o movimiento de aire para disipar las partículas. La respuesta (C) es incorrecta porque la CAT es causada por la mezcla de diferentes temperaturas de aire a diferentes niveles de presión."
+        },
+        {
+            "qn":"353.- Durante los meses de invierno en las latitudes medias, la corriente de chorro se desplaza hacia el:",
+            "a":"Norte y la velocidad disminuye.",
+            "b":"Sur y la velocidad incrementa.",
+            "c":"Norte y la velocidad incrementa.",
+            "ans":"b",
+            "explanation":"En las latitudes medias, la velocidad media del viento de la corriente de chorro es considerablemente mayor en los meses de invierno, ya que se desplaza más al sur."
+        },
+        {
+            "qn":"354.- La fuerza y la ubicación de la corriente en chorro es normalmente:",
+            "a":"más débil y más al norte en el verano.",
+            "b":"más fuerte y más al norte en el invierno.",
+            "c":"más fuerte y más al norte en el verano.",
+            "ans":"a",
+            "explanation":"La corriente en chorro es considerablemente más débil en las latitudes medias durante los meses de verano, y está más al norte que en invierno."
+        },
+        {
+            "qn":"355.- La condición más favorable para la formación de ondas de montaña son una capa de:",
+            "a":"aire estable en la altura de la montaña y un viento de al menos 20 nudos soplando a través de la cresta.",
+            "b":"aire inestable a la altura de la montaña y un viento de al menos 20 nudos soplando a través de la cresta.",
+            "c":"aire húmedo e inestable en la altura de la montaña y un viento de menos de 5 nudos a través de la cresta.",
+            "ans":"a",
+            "explanation":"Una fuerte onda de montaña requiere:\n1. Una marcada estabilidad en la corriente de aire perturbada por las montañas;\n2. La velocidad del viento a nivel de la cumbre debe superar un mínimo que varía de 15 a 25 nudos, según la altura de la cordillera; y\n3. Dirección del viento dentro de los 30° respecto a la cordillera. La sustentación disminuye a medida que los vientos son más paralelos a la cordillera."
+        },
+        {
+            "qn":"356.- ¿Qué tipo de corriente en chorro puede provocar mayores turbulencias?",
+            "a":"Una corriente en chorro recta asociada a una caída de presión.",
+            "b":"Una corriente en chorro curvada asociada a una caída de presión.",
+            "c":"Una corriente en chorro que se produce durante el verano en las latitudes más bajas.",
+            "ans":"b",
+            "explanation":"Las corrientes en chorro curvas, especialmente las que se curvan alrededor de una depresión profunda, son más propensas a tener bordes turbulentos que las corrientes en chorro rectas.\nLa respuesta (A) es incorrecta porque una corriente en chorro curvada es más fuerte que una corriente en chorro recta. La respuesta (C) es incorrecta porque la corriente en chorro es más débil en verano."
+        },
+        {
+            "qn":"357.- Se puede esperar una fuerte cizalladura del viento cuando:",
+            "a":"En el frente de la corriente de chorro, por encima de un núcleo que tiene una velocidad de 60 a 90 nudos.",
+            "b":"Si las isotermas de 5 °C están espaciadas entre 7° y 10° de altitud.",
+            "c":"En el lado de baja presión de un núcleo de chorro, donde la velocidad en el núcleo es más fuerte que 110 nudos.",
+            "ans":"c",
+            "explanation":"Las corrientes en chorro más fuertes que los 110 nudos (en el núcleo) son propensas a tener áreas de turbulencia significativa cerca de ellas en la tropopausa inclinada por encima del núcleo, en el frente de la corriente en chorro por debajo del núcleo y en el lado de baja presión del núcleo. En estas zonas suelen producirse fuertes cizalladuras de viento.\nLa respuesta (A) es incorrecta porque entre 60 y 90 nudos es habitual en la corriente en chorro y si se encontraran turbulencias serían a los lados y en el fondo del núcleo. La respuesta (B) es incorrecta porque estas condiciones no crean exclusivamente cizalladura del viento."
+        },
+        {
+            "qn":"358.- El Sistema de Alerta de Cizalladura del Viento de Bajo Nivel (LLWAS) proporciona datosde viento y proceso de software para detectar la presencia de:",
+            "a":"una columna de aire en rotación que se extiende desde un cumulonimbo.",
+            "b":"un cambio en la dirección y/o velocidad del viento en una distancia muy corta por encima del aeropuerto.",
+            "c":"el movimiento descendente del aire asociado a los vientos continuos que soplan con componente este debido a la rotación de la tierra.",
+            "ans":"b",
+            "explanation":"La cizalladura del viento puede estar asociada a un cambio del viento o a un gradiente de velocidad del viento en cualquier nivel de la atmósfera. Puede estar asociada a una inversión de temperatura en niveles bajos, en una zona frontal, o a una turbulencia de aire claro (CAT) en niveles altos asociada a una corriente en chorro o a una circulación fuerte.\nLa respuesta (A) es incorrecta porque describe un tornado. La respuesta (C) es incorrecta porque el LLWAS detecta los cambios de viento cerca del aeropuerto."
+        },
+        {
+            "qn":"359.- Una de las características más peligrosas de las ondas de montaña son las zonas turbulentas en y:",
+            "a":"por debajo de las nubes del rotor.",
+            "b":"por encima de las nubes del rotor.",
+            "c":"por debajo de las nubes lenticulares.",
+            "ans":"a",
+            "explanation":"Las 'nubes de rotor' parecen permanecer estacionarias, paralelas a la cordillera, y se sitúan a unas pocas millas a sotavento de las montañas. La turbulencia es más frecuente y severa en y debajo de los rotores estacionarios justo debajo de las crestas de las olas en o por debajo de los niveles de las cimas de las montaña."
+        },
+        {
+            "qn":"360.- El hielo que cubre la superficie superior del ala de un avión suele provocar:",
+            "a":"que el avión entre en pérdida con un ángulo de ataque superior al normal.",
+            "b":"que el avión entre en perdida con un ángulo de ataque inferior al normal.",
+            "c":"factores de resistencia aerodinámica tan grandes que no se puede obtener suficiente velocidad para el despegue.",
+            "ans":"b",
+            "explanation":"El hielo en el ala provoca perturbaciones en el flujo de aire. Esto provocará la separación del flujo de aire (entrada en pérdida) a un ángulo de ataque más bajo, lo que provocará una tendencia a entrar en pérdida durante el despegue.\nLa respuesta (A) es incorrecta porque el hielo en la superficie del ala suele hacer que el avión entre en pérdida a un ángulo de ataque más bajo. La respuesta (C) es incorrecta porque la resistencia aerodinámica no suele ser suficiente para impedir que el avión obtenga la velocidad de despegue."
+        },
+        {
+            "qn":"361.- Durante un vuelo IFR a campo traviesa, usted ha recogido hielo en el borde de ataque de las alas de un grosor estimado de 1/2''. Ahora está por debajo de las nubes a 2000 pies AGL y se está acercando a su aeropuerto de destino bajo VFR. La visibilidad bajo las nubes es de más de 10 millas, los vientos en el aeropuerto de destino son de 8 nudos a lo largo de la pista y la temperatura de la superficie es de 3 grados Celsius. Usted decide:",
+            "a":"Utilizar una velocidad de aproximación y aterrizaje más rápida de lo normal.",
+            "b":" Realizar la aproximación y aterrizaje con una velocidad normal ya que el hielo no es lo suficientemente grueso como para tener un efecto notable.",
+            "c":"Hacer la aproximación más despacio de lo normal para disminuir el efecto de “Enfriamiento por el viento” y romper el hielo.",
+            "ans":"a",
+            "explanation":"El hielo se acumulará de forma desigual en el avión. Añadirá peso y resistencia, y disminuirá el empuje y la sustentación. Con las acumulaciones de hielo, las aproximaciones de aterrizaje deben realizarse con un ajuste mínimo de flaps y con un margen adicional de velocidad aerodinámica. Deben evitarse los cambios bruscos de la configuración en la velocidad del aire.\nLa respuesta (B) es incorrecta porque el hielo con un grosor similar al del papel de lija en el borde de ataque y la superficie superior de un ala puede reducir la sustentación del ala hasta en un 30% y aumentar la resistencia en un 40%. La respuesta (C) es incorrecta porque el hielo aumentará la resistencia, requiriendo una sustentación adicional (velocidad del aire); no se puede confiar en el efecto de la 'sensación térmica' para derretir/eliminar el hielo que ya se ha acumulado; volar más lento de lo normal aumenta la posibilidad de entrar en pérdida debido a la disminución de la sustentación."
+        },
+        {
+            "qn":"362.- Hay un sistema de alta presión que se encuentra al sur de su ruta planificada en el hemisferio norte en un vuelo de oeste a este a campo traviesa. Para aprovechar los vientos favorables, usted planificaría su ruta:",
+            "a":"En el lado norte de la zona de alta presión.",
+            "b":"En el lado sur de la zona de alta presión.",
+            "c":"A través del centro de la zona de alta presión.",
+            "ans":"a",
+            "explanation":"Las altas presiones fluyen hacia el exterior en el sentido de las agujas del reloj, por lo que el piloto ganará vientos de cola si vuela en el lado norte del sistema de altas presiones."
+        }
+    ]
+}
+
