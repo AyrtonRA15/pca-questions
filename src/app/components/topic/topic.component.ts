@@ -89,6 +89,8 @@ export class TopicComponent implements OnInit {
     );
   }
 
+  saveFav(): void {}
+
   close(confirm: boolean): void {
     if (confirm) {
       const dialogRef = this.dialog.open(this.closeTemplate);

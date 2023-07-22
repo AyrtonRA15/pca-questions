@@ -19,9 +19,13 @@
       <mat-icon>arrow_forward</mat-icon>
     </button>
   </div>
-  <mat-icon class="close-button" (click)="close(showExitBtn() ? false : true)"
-    >close</mat-icon
-  >
+  <div>
+    <!-- <mat-icon class="icon-btn" (click)="saveFav()">bookmark</mat-icon> -->
+    <mat-icon class="icon-btn" (click)="saveFav()">bookmark_border</mat-icon>
+    <mat-icon class="icon-btn" (click)="close(showExitBtn() ? false : true)"
+      >close</mat-icon
+    >
+  </div>
 </div>
 
 <div class="question-container">

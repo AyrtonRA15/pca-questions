@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 8px 16px;
+    margin: 16px 8px 16px;
     
     .nav-container {
         .mdc-fab:not(:last-child) {
@@ -10,8 +10,11 @@
         }
     }
 
-    .close-button {
+    .icon-btn {
         cursor: pointer;
+        &:not(:last-child) {
+            margin-right: 16px;
+        }
     }
 }
 
@@ -24,6 +27,10 @@
     padding: 16px;
     display: flex;
     flex-direction: column;
+}
+
+.index-container {
+    margin-bottom: 24px;
 }
 
 .question-container {
@@ -39,6 +46,9 @@
 }
 
 .index-container {
+    max-height: 240px;
+    overflow: auto;
+
     .is-correct {
         --mdc-chip-label-text-color: #212121;
         background-color: #B9F6CA;

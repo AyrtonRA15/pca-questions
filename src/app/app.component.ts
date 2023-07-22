@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 import * as aeroData from '../assets/aerodinamica.json';
 import * as sistData from '../assets/sistemas.json';
@@ -23,7 +23,7 @@ type ViewMode =
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   topics = [
     aeroData,
     sistData,
@@ -39,18 +39,21 @@ export class AppComponent {
   view: View = GlobalConstants.MENU;
   mode: ViewMode = GlobalConstants.NO_ANSWER;
   isRandom = false;
+  allQ: any[] = [];
+
+  ngOnInit(): void {
+    for (let i = 0; i < this.topics.length; i++) {
+      this.allQ = this.allQ.concat(this.topics[i].questions);
+    }
+  }
 
   openTopicView(i?: number): void {
     this.view = GlobalConstants.TOPIC;
     if (i != undefined) {
       this.currentTopic = this.topics[i];
     } else {
-      let allQ: any[] = [];
-      for (let i = 0; i < this.topics.length; i++) {
-        allQ = allQ.concat(this.topics[i].questions);
-      }
       this.currentTopic = {
-        questions: allQ,
+        questions: this.allQ,
       };
     }
   }
