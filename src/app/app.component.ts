@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
-import * as aeroData from '../assets/aerodinamica.json';
-import * as sistData from '../assets/sistemas.json';
-import * as instData from '../assets/instrumentos.json';
-import * as reglData from '../assets/reglamentacion.json';
-import * as procData from '../assets/proc_y_ops.json';
-import * as meteData from '../assets/meteorologia.json';
-import * as svMeData from '../assets/serv_meteorologicos.json';
-import * as perfData from '../assets/performance.json';
-import * as naveData from '../assets/navegacion.json';
+import * as aeroData from '../assets/1_aerodinamica.json';
+import * as sistData from '../assets/2_sistemas.json';
+import * as instData from '../assets/3_instrumentos.json';
+import * as reglData from '../assets/4_reglamentacion.json';
+import * as procData from '../assets/5_proc_y_ops.json';
+import * as meteData from '../assets/6_meteorologia.json';
+import * as svMeData from '../assets/7_serv_meteorologicos.json';
+import * as perfData from '../assets/8_performance.json';
+import * as naveData from '../assets/9_navegacion.json';
 
 import { GlobalConstants } from '../global-constants';
 
