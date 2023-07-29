@@ -52,7 +52,7 @@
         },
         {
             "qn":"199.- Se requiere que se mantengan las altitudes de crucero VFR al volar:",
-            "a":"A 3,00 0 pies o más AGL, basado en el rumbo verdadero.",
+            "a":"A 3,000 pies o más AGL, basado en el rumbo verdadero.",
             "b":"Más de 3,000 pies AGL, basado en curso magnético.",
             "c":"A 3,000 pies o más sobre MSL, basado en rumbo magnético.",
             "ans":"b",
@@ -83,7 +83,7 @@
             "explanation":"A menos que sea autorizado o requerido por ATC, ninguna persona puede operar una aeronave hacía, desde, a través o en un aeropuerto que tenga una torre de control operacional a menos que se mantengan comunicaciones de radio bidireccionales entre esa aeronave y la torre de control. Las comunicaciones deben establecerse antes de las 4 NM del aeropuerto, hasta 2,500 pies AGL inclusive."
         
         },
-            {"qn":"203.- Al acercarse a aterrizar en un aeropuerto con una instalación ATC, en espacio aéreo ClaseD, el piloto debe establecer comunicaciones antes de:",
+            {"qn":"203.- Al acercarse a aterrizar en un aeropuerto con una instalación ATC, en espacio aéreo Clase D, el piloto debe establecer comunicaciones antes de:",
             "a":"10 NH, hasta 3000 pies AGL inclusive.",
             "b":"30 SM, y estar equipado con transpondedor.",
             "c":"4 NM, hasta 2500 pies AGL inclusive.",
@@ -123,7 +123,7 @@
             "explanation":"A menos que el ATC lo autorice de otra manera, ninguna persona puede operar una aeronave dentro del espacio aéreo de Clase A menos que la aeronave esté equipada con un transpondedor aprobado y un equipo de notificación de altitud."
         },
         {
-            "qn":"208.- Cuando la información meteorológica indique que existe una presión barométrica anormalmente alta o por encima de pulgadas de mercurio, no se autorizarán operacionesde vuelo contrarias a los requisitos publicados en los NOTAM.",
+            "qn":"208.- Cuando la información meteorológica indique que existe una presión barométrica anormalmente alta o por encima de ____ pulgadas de mercurio, no se autorizarán operaciones de vuelo contrarias a los requisitos publicados en los NOTAM.",
             "a":"31.00.",
             "b":"32.00.",
             "c":"3050.",
@@ -155,7 +155,7 @@
             "explanation":"Generalmente, por la noche es difícil ver nubes y restricciones de visibilidad, particularmente en noches oscuras o bajo cielo nublado. Por lo general, la primera indicación de volar en condiciones de visibilidad restringida es la desaparición gradual de las luces en el suelo.\nLa respuesta (A) y (C) son incorrectas porque las luces del suelo (no de la cabina) que adquieren la apariencia de un halo o resplandor indican niebla en el suelo."
         },
         {
-            "qn":"212.- ¿Quién tiene la autoridad final para aceptar o rechazar cualquier autorización de aterrizajey espera corta (LAHSO)?",
+            "qn":"212.- ¿Quién tiene la autoridad final para aceptar o rechazar cualquier autorización de aterrizaje y espera corta (LAHSO)?",
             "a":"Controlador de la torre de control.",
             "b":"Controlador de aproximación ATC.",
             "c":"Piloto al mando.",
@@ -267,7 +267,7 @@
             "explanation":"Los pilotos solo deben recibir una autorización de LAHSO cuando hay un techo mínimo de 1,000 pies y una visibilidad de 3 millas terrestres. La intención de tener condiciones climáticas VFR 'básicas' es permitir que los pilotos mantengan contacto visual con otras aeronaves y operaciones de vehículos terrestres."
         },
         {
-            "qn":"225.- ¿Qué debe esperar cuando le dicen que las operaciones de LAHSO están en vigor ensu aeropuerto de destino?",
+            "qn":"225.- ¿Qué debe esperar cuando le dicen que las operaciones de LAHSO están en vigor en su aeropuerto de destino?",
             "a":"Todas las aeronaves deben operar con una autorización IFR debido al alto volumen de tráfico.",
             "b":"Ese ATC le dará una autorización para aterrizar y esperar antes de un punto específico en la pista.",
             "c":"Retrasos debido a condiciones de IFR bajas y alto volumen de tráfico.",
@@ -363,7 +363,7 @@
             "explanation":"Tan solo una onza de licor, una botella de cerveza o cuatro onzas de vino pueden afectar las habilidades de vuelo, y el alcohol consumido en estas bebidas es detectable en el aliento y la sangre durante al menos 3 horas."
         },
         {
-            "qn":"237.- La susceptibilidad a la hipoxia debido a la inhalación de monóxido de carbono aumentaa medida que:",
+            "qn":"237.- La susceptibilidad a la hipoxia debido a la inhalación de monóxido de carbono aumenta a medida que:",
             "a":"la humedad disminuye.",
             "b":"aumenta la altitud.",
             "c":"aumenta la demanda de oxígeno.",

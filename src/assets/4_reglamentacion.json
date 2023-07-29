@@ -19,7 +19,7 @@
             "explanation":"Ninguna persona puede actuar como piloto al mando o en cualquier otra capacidad como miembro de la tripulación de vuelo de una aeronave civil a menos que cuente con la respectiva licencia y una certificación médica vigente que esté en su posesión o sea de fácil acceso en la aeronave. [LAR 61.015 (a)]\nAsimismo, en el LAR 91 se indica que el piloto al mando se asegurará de que cada miembro de la tripulación de vuelo esté en posesión y porte una licencia con sus habilitaciones y certificado médico aeronáutico válidos y apropiados a las funciones que haya de ejercer, expedida por el Estado de matrícula de la aeronave o expedida por otro Estado y convalidada por el Estado de matrícula. Igualmente, se indica que entre los documentos que deben llevarse a bordo de las aeronaves, están las licencias apropiadas de cada miembro de la tripulación. [LAR 91.1310 (a)(1), LAR 91.420 (a)(3)]\nLas respuestas (A) y B son incorrectas porque se requiere tener la licencia de piloto y la certificación médica apropiadas independientemente del tipo de operación."
         },
         {
-            "qn":"134.- ¿Un certificado médico emitido a un piloto comercial el 10 de abril de este año le permiteal piloto ejercer cuál de los siguientes privilegios, considerando que es menor de 40 años?",
+            "qn":"134.- ¿Un certificado médico emitido a un piloto comercial el 10 de abril de este año le permite al piloto ejercer cuál de los siguientes privilegios, considerando que es menor de 40 años?",
             "a":"Privilegios de piloto comercial hasta el 10 de abril del próximo año.",
             "b":"Privilegios de piloto comercial hasta el 10 de abril, 2 años después.",
             "c":"Privilegios de piloto privado hasta el 31 de marzo del próximo año, pero no después.",
@@ -59,7 +59,7 @@
             "explanation":"La respuesta A está incompleta porque puede registrar las horas de vuelo realizadas como copiloto en una aeronave que por certificado tipo requiera esta función o cuando las realice por requisitos operacionales establecidos por la AAC. La respuesta C no es correcta al no estar exigida esa condición en el reglamento. [LAR 61.120 (c)(3)]."
         },
         {
-            "qn":"139.- Antes de transportar pasajeros en vuelo nocturno, el piloto al mando debe haberrealizado los despegues y aterrizajes requeridos en:",
+            "qn":"139.- Antes de transportar pasajeros en vuelo nocturno, el piloto al mando debe haber realizado los despegues y aterrizajes requeridos en:",
             "a":"cualquier tipo de aeronave.",
             "b":"la misma categoría y clase de aeronave que se utilizará.",
             "c":"la misma categoría, clase y tipo de aeronave (si se requiere una habilitación de tipo).",
@@ -75,7 +75,7 @@
             "explanation":"Para actuar como piloto al mando bajo IFR, las respuestas B y C no están acordes con lo establecido en la normativa vigente [LAR 61.140 (c) (1)]."
         },
         {
-            "qn":"141.- Para actuar como piloto al mando de una aeronave que requiera más de un piloto bajo el LAR 91, un piloto comercial debe haber completado satisfactoriamente un chequeo de vueloo completado una verificación de competencia dentro de los:",
+            "qn":"141.- Para actuar como piloto al mando de una aeronave que requiera más de un piloto bajo el LAR 91, un piloto comercial debe haber completado satisfactoriamente un chequeo de vuelo o completado una verificación de competencia dentro de los:",
             "a":"6 meses calendario anteriores.",
             "b":"12 meses calendario anteriores.",
             "c":"24 meses calendario anteriores.",
@@ -83,7 +83,7 @@
             "explanation":"Ninguna persona puede actuar como piloto al mando de una aeronave certificada para más de un piloto, a menos que, dentro de los 6 meses calendario anteriores, haya completado un chequeo de vuelo, haya completado una verificación de competencia del piloto o haya completado una o más fases de un programa de verificación de competencia aprobado por la AAC. (LAR 61.145)."
         },
         {
-            "qn":"142.- ¿Cuál de las siguientes afirmaciones no es correcta, en cuanto a las responsabilidadesdel piloto al mando conforme al LAR 91?",
+            "qn":"142.- ¿Cuál de las siguientes afirmaciones no es correcta, en cuanto a las responsabilidades del piloto al mando conforme al LAR 91?",
             "a":"Notificar a la autoridad correspondiente más próxima, por el medio más rápido, cualquier accidente en relación con la aeronave, en el cual alguna persona resulte muerta o con lesiones graves o se causen daños de importancia a la aeronave o a la propiedad.",
             "b":"Garantizar la protección de la aeronave siempre que en la operación manipule los mandos.",
             "c":"Cumplir las reglas de vuelo, excepto en circunstancias que sean absolutamente necesario por razones de seguridad",
@@ -107,7 +107,7 @@
             "explanation":"Para un vuelo bajo IFR o un vuelo que no se encuentre en las inmediaciones de un aeródromo, el piloto debe estar familiarizado con los informes y pronósticos meteorológicos, los requisitos de combustible, las alternativas disponibles si el vuelo planificado no se puede completar. (LAR 91.125)."
         },
         {
-            "qn":"145.- Las medidas previas al vuelo relativas a los informes meteorológicos y los requisitosde combustible son aplicables a:",
+            "qn":"145.- Las medidas previas al vuelo relativas a los informes meteorológicos y los requisitos de combustible son aplicables a:",
             "a":"cualquier vuelo realizado por remuneración o arrendamiento",
             "b":"cualquier vuelo que no se encuentre en las inmediaciones de un aeródromo y para todos los vuelos IFR.",
             "c":"solo vuelos IFR.",
@@ -179,7 +179,7 @@
             "explanation":"Ningún piloto puede hacer que se mueva en la superficie, despegue o aterrice una aeronave a menos que el piloto al mando de esa aeronave se asegure de que cada persona a bordo haya sido notificada para abrocharse el cinturón de seguridad y, si está instalado, su arnés de hombro. Una persona que no ha cumplido dos años puede ser retenida por un adulto. (LAR 91.555)."
         },
         {
-            "qn":"154.- Los dispositivos electrónicos portátiles que puedan causar interferencia con el sistemade navegación o comunicación no se pueden operar en una aeronave civil:",
+            "qn":"154.- Los dispositivos electrónicos portátiles que puedan causar interferencia con el sistema de navegación o comunicación no se pueden operar en una aeronave civil:",
             "a":"en cualquier porción del espacio aéreo nacional.",
             "b":"dentro del Estado.",
             "c":"en las operaciones de transporte aéreo.",
@@ -187,7 +187,7 @@
             "explanation":"Los dispositivos electrónicos portátiles no pueden ser operados en aeronaves operadas por un titular de un certificado de operación de explotador de servicios aéreos. El piloto al mando no permitirá la operación de cualquier dispositivo electrónico portátil en ninguna aeronave civil, excepto grabadoras de voz, dispositivos de corrección auditiva, marcapasos, afeitadoras, entre otros.\nLa respuesta (A) es incorrecta porque esta regla se aplica únicamente a vuelos comerciales e IFR. La respuesta (B) es incorrecta porque esta regla se aplica solo a vuelos comerciales e IFR. (LAR 91.025)"
         },
         {
-            "qn":"155.- Los dispositivos electrónicos portátiles que puedan causar interferencia con el sistemade navegación o comunicación no se pueden operar en aeronaves civiles registradas en el Estado:",
+            "qn":"155.- Los dispositivos electrónicos portátiles que puedan causar interferencia con el sistema de navegación o comunicación no se pueden operar en aeronaves civiles registradas en el Estado:",
             "a":"Bajo vuelos IFR.",
             "b":"En operaciones especiales.",
             "c":"En cualquier porción del espacio aéreo nacional.",
@@ -307,7 +307,7 @@
             "explanation":"Cuando las aeronaves de la misma categoría convergen aproximadamente a la misma altitud (excepto de frente, o casi), la aeronave a la derecha de la otra tiene el derecho de paso. La luz verde indica que la aeronave # 1 está mirando hacia el ala derecha de la aeronave # 2, lo que significa que la aeronave # 1 está a la derecha de la aeronave # 2. (LAR 91.185)."
         },
         {
-            "qn":"170.- Un piloto que vuela un avión monomotor observa un avión multimotor acercándose porla izquierda. ¿Qué piloto debería ceder el paso?",
+            "qn":"170.- Un piloto que vuela un avión monomotor observa un avión multimotor acercándose por la izquierda. ¿Qué piloto debería ceder el paso?",
             "a":"El piloto del avión multimotor debería ceder; el avión monomotor está a su derecha.",
             "b":"El piloto del avión monomotor debe ceder el paso; el otro avión está a la izquierda.",
             "c":"Cada piloto debe cambiar de rumbo hacia la derecha.",
@@ -347,7 +347,7 @@
             "explanation":"El propietario o el explotador de una aeronave es el principal responsable de mantener esa aeronave en condiciones de aeronavegabilidad, incluido el cumplimiento de las directivas de aeronavegabilidad.\nLa respuesta (A) es incorrecta porque los mecánicos trabajan bajo el asesoramiento del propietario / explotador. La respuesta (B) es incorrecta porque el piloto solo es responsable de determinar la aeronavegabilidad antes del vuelo. (LAR 91.1105)."
         },
         {
-            "qn":"175.- Después de que se haya completado una inspección anual y la aeronave se haya vueltoa poner en servicio, se debe realizar una anotación adecuada:",
+            "qn":"175.- Después de que se haya completado una inspección anual y la aeronave se haya vuelto a poner en servicio, se debe realizar una anotación adecuada:",
             "a":"en el certificado de aeronavegabilidad.",
             "b":"en los registros de mantenimiento de la aeronave.",
             "c":"en el manual de vuelo aprobado por la AAC.",
@@ -387,7 +387,7 @@
             "explanation":"La anual se considera la inspección más rigurosa y puede sustituirse por la de 100 horas, no al revés.\nLa respuesta (A) es incorrecta porque una inspección anual puede sustituirse por una inspección de 100 horas. La respuesta (C) es incorrecta porque se puede realizar una inspección progresiva en lugar de una inspección anual. (LAR 43)."
         },
         {
-            "qn":"180.- No se debe usar un transpondedor ATC a menos que haya sido probado, inspeccionadoy se haya determinado que cumple con las regulaciones dentro de los:",
+            "qn":"180.- No se debe usar un transpondedor ATC a menos que haya sido probado, inspeccionado y se haya determinado que cumple con las regulaciones dentro de los:",
             "a":"30 días.",
             "b":"12 meses.",
             "c":"24 meses.",
@@ -411,7 +411,7 @@
             "explanation":"Ninguna persona puede operar un producto al que se aplique una Directiva de aeronavegabilidad, excepto de conformidad con los requisitos de dicha Directiva.\nLa respuesta (A) es incorrecta porque los AD son obligatorios. La respuesta (C) es incorrecta porque el cumplimiento de los AD, junto con otras regulaciones de mantenimiento, es responsabilidad del propietario / operador. [LAR 91.1125(a)(3)]"
         },
         {
-            "qn":"183.- Si un transpondedor ATC instalado en una aeronave no ha sido probado, inspeccionadoy no cumple con las regulaciones dentro de un período específico, ¿cuál es la limitación de su uso?",
+            "qn":"183.- Si un transpondedor ATC instalado en una aeronave no ha sido probado, inspeccionado y no cumple con las regulaciones dentro de un período específico, ¿cuál es la limitación de su uso?",
             "a":"No se permite su uso.",
             "b":"Se puede utilizar en el espacio aéreo de Clase G.",
             "c":"Puede usarse solo para vuelos VFR.",
@@ -435,7 +435,7 @@
             "explanation":"La respuesta A no es correcta por cuanto la instrucción de vuelo no solo puede ser en la aeronave, sino también en un simulador de vuelo correspondiente a la certificación de tipo de la aeronave a ser operada.\nLa respuesta B no es correcta debido a que el piloto comercial debe contar además de la habilitación de categoría de avión, con la habilitación de tipo correspondiente a la aeronave que es la que respaldará las atribuciones a ejercer, así como la habilitación de vuelo por instrumentos en caso de realizar vuelos IFR.\nLa respuesta correcta es la C conforme a lo que indica el LAR, dado que para ejercer como copiloto la persona debe contar con la experiencia en el tipo de aeronave a operar, en las maniobras y procedimientos detallados en el reglamento (LAR 61.120)."
         },
         {
-            "qn":"186.- Las regulaciones de operación para aviones civiles requieren que, durante el movimiento en la superficie, despegues y aterrizajes, un cinturón de seguridad y un arnés parahombros (si están instalados) deben estar debidamente asegurados:",
+            "qn":"186.- Las regulaciones de operación para aviones civiles requieren que, durante el movimiento en la superficie, despegues y aterrizajes, un cinturón de seguridad y un arnés para hombros (si están instalados) deben estar debidamente asegurados:",
             "a":"solo para miembros de la tripulación de vuelo.",
             "b":"personas a bordo.",
             "c":"tripulantes de vuelo y de cabina.",

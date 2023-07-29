@@ -43,7 +43,7 @@
             "explanation":"La fuerza de Coriolis desvía el aire hacia la derecha en el hemisferio norte."
         },
         {
-            "qn":"278.- ¿Por qué el viento tiende a fluir en paralelo a las isobaras de presión por encima del nivelde fricción?",
+            "qn":"278.- ¿Por qué el viento tiende a fluir en paralelo a las isobaras de presión por encima del nivel de fricción?",
             "a":"La fuerza de Coriolis tiende a contrarrestar el gradiente de presión horizontal.",
             "b":"La fuerza de Coriolis actúa perpendicularmente a una línea que une los máximos y los mínimos.",
             "c":"La fricción del aire con la tierra desvía el aire perpendicularmente al gradiente de presión.",
@@ -78,7 +78,7 @@
             "qn":"282.- Mientras se vuela a campo traviesa, en el hemisferio norte, se experimenta un viento cruzado continuo a la izquierda el cual está asociado a un sistema de viento alto. Esto indica que usted:",
             "a":"está volando hacia una zona de condiciones generalmente desfavorables.",
             "b":"se encuentra volando desde una zona con condiciones meteorológicas desfavorables.",
-            "c":"no se puede determinar las condicione meteorológicas sin conocer los cambios de presión.",
+            "c":"no se puede determinar las condiciones meteorológicas sin conocer los cambios de presión.",
             "ans":"a",
             "explanation":"Cuando se vuela en el hemisferio norte, experimentar un viento cruzado continuo a la izquierda indica que se está entrando en un sistema bajo presión. El viento sopla en sentido contrario a las agujas del reloj, lo que explica un viento cruzado a la izquierda. En general, un sistema de bajas presiones se asocia con el mal tiempo.\nLa respuesta (B) es incorrecta porque si se ha volado desde una zona de condiciones meteorológicas desfavorables, lo que significa que se tendría un viento cruzado a la derecha. La respuesta (C) es incorrecta porque el viento puede proporcionar una indicación de los cambios de presión y del tiempo."
         },
@@ -163,7 +163,7 @@
             "explanation":"La lluvia que cae desde el aire cálido de arriba a través del aire más frío de abajo puede congelarse durante su descenso, cayendo en forma de gránulos de hielo. Esto puede ocurrir siempre que exista una capa de aire más cálido por encima de una capa más fría (es decir, un frente cálido o un frente frío)."
         },
         {
-            "qn":"293.- Cuando se pronostica un aire condicionalmente inestable con alto contenido de humedady una temperatura superficial muy cálida ¿Qué tipo de tiempo se puede esperar?",
+            "qn":"293.- Cuando se pronostica un aire condicionalmente inestable con alto contenido de humedad y una temperatura superficial muy cálida ¿Qué tipo de tiempo se puede esperar?",
             "a":"Fuertes corrientes ascendentes y nubes grandes.",
             "b":"Visibilidad restringida cerca de la superficie en una zona amplia.",
             "c":"Fuertes corrientes ascendentes y nubes de desarrollo vertical.",
@@ -507,7 +507,7 @@
             "explanation":"Las nubes cumulonimbos representan una masa de aire inestable que indica condiciones turbulentas. Cuanto más frecuentes sean los rayos, más grave será la tormenta. La nube Arcus es más frecuente en las tormentas frontales frías o en la línea de borrasca y significa una zona extremadamente turbulenta."
         },
         {
-            "qn":"336.- ¿Qué fenómeno meteorológico indica el comienzo de la fase de madurez de unatormenta?",
+            "qn":"336.- ¿Qué fenómeno meteorológico indica el comienzo de la fase de madurez de una tormenta?",
             "a":"El comienzo de la lluvia.",
             "b":"El aspecto de la parte superior de un yunque.",
             "c":"La tasa de crecimiento de la nube es máxima.",
@@ -515,7 +515,7 @@
             "explanation":"La etapa de madurez de una tormenta eléctrica comienza cuando la precipitación empieza a caer desde la base de las nubes. Las corrientes descendentes alcanzan velocidades que pueden superar los 2,500 pies por minuto. Mientras tanto, las corrientes ascendentes alcanzan un máximo con velocidades que pueden superar los 6,000 pies por minuto.\nLa respuesta (B) es incorrecta porque la cima del yunque aparece durante la etapa de maduración, pero no necesariamente al principio. La respuesta (C) es incorrecta porque la máxima velocidad de crecimiento de las nubes se produce entre la mitad y el final de la etapa madura."
         },
         {
-            "qn":"337.- ¿Qué característica se asocia normalmente a la fase de cúmulo de una tormentaeléctrica?",
+            "qn":"337.- ¿Qué característica se asocia normalmente a la fase de cúmulo de una tormenta eléctrica?",
             "a":"Nube de rollos.",
             "b":"Corriente ascendente continua.",
             "c":"Comienza a llover en la superficie.",
@@ -683,7 +683,7 @@
             "explanation":"Las corrientes en chorro más fuertes que los 110 nudos (en el núcleo) son propensas a tener áreas de turbulencia significativa cerca de ellas en la tropopausa inclinada por encima del núcleo, en el frente de la corriente en chorro por debajo del núcleo y en el lado de baja presión del núcleo. En estas zonas suelen producirse fuertes cizalladuras de viento.\nLa respuesta (A) es incorrecta porque entre 60 y 90 nudos es habitual en la corriente en chorro y si se encontraran turbulencias serían a los lados y en el fondo del núcleo. La respuesta (B) es incorrecta porque estas condiciones no crean exclusivamente cizalladura del viento."
         },
         {
-            "qn":"358.- El Sistema de Alerta de Cizalladura del Viento de Bajo Nivel (LLWAS) proporciona datosde viento y proceso de software para detectar la presencia de:",
+            "qn":"358.- El Sistema de Alerta de Cizalladura del Viento de Bajo Nivel (LLWAS) proporciona datos de viento y proceso de software para detectar la presencia de:",
             "a":"una columna de aire en rotación que se extiende desde un cumulonimbo.",
             "b":"un cambio en la dirección y/o velocidad del viento en una distancia muy corta por encima del aeropuerto.",
             "c":"el movimiento descendente del aire asociado a los vientos continuos que soplan con componente este debido a la rotación de la tierra.",

@@ -164,7 +164,7 @@
             "explanation":"La rápida actuación del acelerador puede provocar la detonación, lo que puede desafinar el cigüeñal.\nLa respuesta (B) es incorrecta porque el hielo en el carburador puede hacer que el motor deje de funcionar, pero no afectará los contrapesos del cigüeñal del motor.\nLa respuesta (C) es incorrecta porque operar con una mezcla excesivamente rica ensucia las bujías, pero no afecta el cigüeñal."
         },
         {
-            "qn":"88.- La mezcla que da la mejor potencia se obtiene con la razón de combustible/aire con lacual:",
+            "qn":"88.- La mezcla que da la mejor potencia se obtiene con la razón de combustible/aire con la cual:",
             "a":"Las temperaturas de la cabeza de cilindros de son las más frías.",
             "b":"Se puede obtener la mayor potencia para cualquier ajuste del acelerador dado.",
             "c":"Se puede obtener una potencia determinada con la mayor presión del colector o ajuste del acelerador.",
@@ -196,7 +196,7 @@
             "explanation":"La indicación de presión de aceite varía inversamente con la temperatura del aceite. La temperatura alta y la presión baja generalmente indican un nivel de aceite bajo.\nLa respuesta (A) es incorrecta porque un rodamiento defectuoso aumentará las partículas de metal en el aceite, pero no afectará significativamente la temperatura del aceite.\nLa respuesta (C) es incorrecta porque una mezcla rica da como resultado temperaturas de funcionamiento del motor más bajas; por lo tanto, no aumentaría la temperatura del aceite del motor."
         },
         {
-            "qn":"92.- ¿Qué ocurre si no se empobrece con el control de mezcla a medida que aumenta laaltitud?",
+            "qn":"92.- ¿Qué ocurre si no se empobrece con el control de mezcla a medida que aumenta la altitud?",
             "a":"El volumen de aire que ingresa al carburador disminuye y la cantidad de combustible disminuye.",
             "b":"La densidad del aire que ingresa al carburador disminuye y aumenta la cantidad de combustible.",
             "c":"La densidad del aire que ingresa al carburador disminuye y la cantidad de combustible permanece constante.",
@@ -204,7 +204,7 @@
             "explanation":"El flujo de combustible permanece constante si no se realizan ajustes. El mismo volumen de aire entra en el carburador, pero el peso y la densidad del aire son menores, lo que provoca una mezcla excesivamente rica, lo cual que las bujías se ensucien y disminuyan la potencia."
         },
         {
-            "qn":"93.- A menos que se ajuste, la mezcla de aire/combustible se vuelve más rica con un aumentode altitud debido a que la cantidad de combustible:",
+            "qn":"93.- A menos que se ajuste, la mezcla de aire/combustible se vuelve más rica con un aumento de altitud debido a que la cantidad de combustible:",
             "a":"Disminuye mientras que el volumen de aire disminuye.",
             "b":"Permanece constante mientras que el volumen de aire disminuye.",
             "c":"Permanece constante mientras la densidad del aire disminuye.",
@@ -228,7 +228,7 @@
             "explanation":"El flujo de combustible permanece constante si no se realizan ajustes. El mismo volumen de aire entra en el carburador, pero el peso y la densidad del aire son menores, lo que provoca una mezcla excesivamente rica, que provoca que las bujías se ensucien y una disminución de la potencia.\nLa respuesta (A) es incorrecta porque una mezcla pobre hará que el motor se sobrecaliente.\nLa respuesta (C) es incorrecta porque un motor funciona con más suavidad cuando la mezcla se ajusta a la altitud."
         },
         {
-            "qn":"96.- Su avión tiene un sistema de calefacción de colector de escape. El colector del sistemade escape debería inspeccionarse periódicamente para evitar:",
+            "qn":"96.- Su avión tiene un sistema de calefacción de colector de escape. El colector del sistema de escape debería inspeccionarse periódicamente para evitar:",
             "a":"Intoxicación por monóxido de carbono.",
             "b":"Sobrecalentamiento en la cabina.",
             "c":"Temperaturas extremadamente frías en la cabina.",
@@ -260,7 +260,7 @@
             "explanation":"Un ángulo de ataque más pequeño hace que las palas tomen cantidades más pequeñas de aire, lo que a su vez permite que el motor funcione a mayores RPM, produciendo más potencia."
         },
         {
-            "qn":"100.- Para el despegue, el ángulo de la pala de una hélice de paso variable debe establecerseen un:",
+            "qn":"100.- Para el despegue, el ángulo de la pala de una hélice de paso variable debe establecerse en un:",
             "a":"Pequeño ángulo de ataque y altas revoluciones por minuto.",
             "b":"Gran ángulo de ataque y bajas revoluciones por minuto.",
             "c":"Gran ángulo de ataque y altas revoluciones por minuto.",
