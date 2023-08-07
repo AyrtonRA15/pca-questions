@@ -37,7 +37,7 @@
         *ngFor="let topic of topics; index as i"
         mat-stroked-button
         class="topic-btn"
-        [disabled]="!topic.questions.length"
+        [disabled]="!allQuestions.length"
         (click)="openTopicView(i)"
       >
         <div class="btn-content">
@@ -49,7 +49,7 @@
           <span>{{ topic.name }}</span>
         </div>
       </button>
-      <button mat-stroked-button class="topic-btn" (click)="openTopicView()">
+      <!-- <button mat-stroked-button class="topic-btn" (click)="openTopicView()">
         <div class="btn-content">
           <mat-icon
             class="material-icons"
@@ -58,14 +58,14 @@
           ></mat-icon>
           <span>{{ "Ver Todos" }}</span>
         </div>
-      </button>
+      </button> -->
     </div>
   </ng-container>
 
   <!-- Topic -->
   <ng-container *ngIf="view === 'topic'">
     <app-topic
-      [topic]="currentTopic"
+      [questions]="currentQuestions"
       [mode]="mode"
       [isRandom]="isRandom"
       (cancel)="close()"

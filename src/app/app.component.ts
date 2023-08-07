@@ -1,16 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-
-import * as aeroData from '../assets/1_aerodinamica.json';
-import * as sistData from '../assets/2_sistemas.json';
-import * as instData from '../assets/3_instrumentos.json';
-import * as reglData from '../assets/4_reglamentacion.json';
-import * as procData from '../assets/5_proc_y_ops.json';
-import * as meteData from '../assets/6_meteorologia.json';
-import * as svMeData from '../assets/7_serv_meteorologicos.json';
-import * as perfData from '../assets/8_performance.json';
-import * as naveData from '../assets/9_navegacion.json';
+import { Component, OnInit, inject } from '@angular/core';
 
 import { GlobalConstants } from '../global-constants';
+import { QuestionsService } from './services/questions.service';
+import { Subscription } from 'rxjs';
+import Question from './interfaces/question.interface';
 
 type View = typeof GlobalConstants.MENU | typeof GlobalConstants.TOPIC;
 type ViewMode =
@@ -18,48 +11,96 @@ type ViewMode =
   | typeof GlobalConstants.ANSWERS_ONLY
   | typeof GlobalConstants.INSTANT_ANSWER;
 
+const topics = [
+  {
+    name: 'Aerodinámica Básica',
+    icon: 'air',
+  },
+  {
+    name: 'Sistemas de Aeronaves',
+    icon: 'miscellaneous_services',
+  },
+  {
+    name: 'Instrumentos de Vuelo',
+    icon: 'hdr_strong',
+  },
+  {
+    name: 'Reglamentación',
+    icon: 'gavel',
+  },
+  {
+    name: 'Procedimientos y Operaciones de Aeródromos',
+    icon: 'flight_takeoff',
+  },
+  {
+    name: 'Meteorología',
+    icon: 'thunderstorm',
+  },
+  {
+    name: 'Servicios Meteorológicos',
+    icon: 'rss_feed',
+  },
+  {
+    name: 'Performance de la Aeronave',
+    icon: 'insert_chart_outlined',
+  },
+  {
+    name: 'Navegación',
+    icon: 'near_me',
+  },
+  {
+    name: 'Ver Todos',
+    icon: 'grid_view',
+  },
+  {
+    name: 'Ver Guardadas',
+    icon: 'bookmark',
+  },
+];
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  topics = [
-    aeroData,
-    sistData,
-    instData,
-    reglData,
-    procData,
-    meteData,
-    svMeData,
-    perfData,
-    naveData,
-  ];
+  topics = topics;
   currentTopic: any = {};
   view: View = GlobalConstants.MENU;
   mode: ViewMode = GlobalConstants.NO_ANSWER;
   isRandom = false;
-  allQ: any[] = [];
+
+  questionService = inject(QuestionsService);
+  questionsSubs = new Subscription();
+  allQuestions: Question[] = [];
+  currentQuestions: Question[] = [];
 
   ngOnInit(): void {
-    for (let i = 0; i < this.topics.length; i++) {
-      this.allQ = this.allQ.concat(this.topics[i].questions);
-    }
+    this.questionService
+      .getQuestions()
+      .subscribe((qns: any) => (this.allQuestions = qns));
+    // .subscribe((qns: any) => console.log(qns));
   }
 
-  openTopicView(i?: number): void {
+  openTopicView(i: number): void {
     this.view = GlobalConstants.TOPIC;
-    if (i != undefined) {
-      this.currentTopic = this.topics[i];
+
+    if (i < 9) {
+      this.currentQuestions = this.allQuestions.filter(
+        (qn) => qn.topic === (i + 1).toString()
+      );
+    } else if (i === 9) {
+      this.currentQuestions = this.allQuestions;
     } else {
-      this.currentTopic = {
-        questions: this.allQ,
-      };
+      this.currentQuestions = this.allQuestions.filter(
+        (qn) => qn.saved === 'true'
+      );
     }
   }
 
   close(): void {
-    this.currentTopic = undefined;
+    this.currentQuestions = [];
+    this.questionsSubs.unsubscribe();
     this.view = GlobalConstants.MENU;
   }
 }

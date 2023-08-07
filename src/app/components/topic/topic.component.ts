@@ -7,11 +7,14 @@ import {
   QueryList,
   ViewChild,
   ViewChildren,
+  inject,
 } from '@angular/core';
 import { MatChipOption } from '@angular/material/chips';
 import { ResultComponent } from './result/result.component';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { GlobalConstants } from '../../../global-constants';
+import { QuestionsService } from '../../services/questions.service';
+import Question from '../../interfaces/question.interface';
 
 @Component({
   selector: 'app-topic',
@@ -19,7 +22,7 @@ import { GlobalConstants } from '../../../global-constants';
   styleUrls: ['./topic.component.scss'],
 })
 export class TopicComponent implements OnInit {
-  @Input() topic: any;
+  @Input() questions: any;
   @Input() mode: any;
   @Input() isRandom = false;
   @Output() cancel = new EventEmitter<any>();
@@ -28,7 +31,7 @@ export class TopicComponent implements OnInit {
   @ViewChild('closeTemplate') closeTemplate: any;
   @ViewChild('submitTemplate') submitTemplate: any;
 
-  question: any = {};
+  question: Question = {};
   currentQ = 0;
   totalQ = 0;
   // qListOrder: number[] = []; // Array to store order for questions
@@ -39,14 +42,16 @@ export class TopicComponent implements OnInit {
   totalCorrect = 0;
   score = 0;
 
+  questionService = inject(QuestionsService);
+
   constructor(public dialog: MatDialog) {}
 
   ngOnInit(): void {
-    this.totalQ = this.topic?.questions.length;
+    this.totalQ = this.questions.length;
     // this.qListOrder = Array.from(Array(this.totalQ).keys());
     if (this.isRandom) {
       // this.shuffleArrayItems(this.qListOrder);
-      this.shuffleArrayItems(this.topic.questions);
+      this.shuffleArrayItems(this.questions);
     }
     this.ansSelected = new Array<string>(this.totalQ);
     this.updateQ();
@@ -62,9 +67,11 @@ export class TopicComponent implements OnInit {
 
   updateQ(i = 0): void {
     this.currentQ = i;
-    this.question = this.topic.questions[this.currentQ];
-    // this.question = this.topic.questions[this.qListOrder[this.currentQ]];
+    // if (this.questions) {
+    this.question = this.questions[this.currentQ];
+    // this.question = this.questions[this.qListOrder[this.currentQ]];
     this.chipOpts?.toArray()[this.currentQ].select();
+    // }
   }
 
   changeAns(ans: string): void {
@@ -77,19 +84,24 @@ export class TopicComponent implements OnInit {
 
   showCorrectChip(i: number): boolean {
     return (
-      this.isViewingResults &&
-      this.ansSelected[i] === this.topic.questions[i].ans
+      this.isViewingResults && this.ansSelected[i] === this.questions[i].ans
     );
   }
 
   showWrongChip(i: number): boolean {
     return (
-      this.isViewingResults &&
-      this.ansSelected[i] !== this.topic.questions[i].ans
+      this.isViewingResults && this.ansSelected[i] !== this.questions[i].ans
     );
   }
 
-  saveFav(): void {}
+  saveFav(): void {
+    if (this.question.saved === 'false') {
+      this.question.saved = 'true';
+    } else {
+      this.question.saved = 'false';
+    }
+    this.questionService.saveQuestion(this.question.id, this.question.saved);
+  }
 
   close(confirm: boolean): void {
     if (confirm) {
@@ -111,7 +123,7 @@ export class TopicComponent implements OnInit {
         this.isViewingResults = true;
         this.updateQ();
         this.totalCorrect = this.ansSelected.filter(
-          (ans: any, i: number) => this.topic.questions[i].ans === ans
+          (ans: any, i: number) => this.questions[i].ans === ans
         ).length;
         this.score = Math.round(
           (this.totalCorrect / this.ansSelected.length) * 100

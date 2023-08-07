@@ -16,10 +16,15 @@
             margin-right: 16px;
         }
     }
+
+    &.end {
+        justify-content: end;
+    }
 }
 
 .question-container,
-.index-container {
+.index-container,
+.no-content {
     border-radius: 4px;
     border: 1px solid #eee;
     background-color: #fafafa;

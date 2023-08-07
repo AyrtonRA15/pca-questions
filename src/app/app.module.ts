@@ -19,6 +19,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TopicComponent } from './components/topic/topic.component';
 import { QuestionComponent } from './components/topic/question/question.component';
 import { ResultComponent } from './components/topic/result/result.component';
+import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase, getDatabase } from '@angular/fire/database';
 
 @NgModule({
   declarations: [
@@ -41,6 +44,8 @@ import { ResultComponent } from './components/topic/result/result.component';
     MatButtonToggleModule,
     MatSlideToggleModule,
     MatDialogModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideDatabase(() => getDatabase()),
   ],
   providers: [],
   bootstrap: [AppComponent],
