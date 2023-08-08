@@ -48,7 +48,7 @@ export class QuestionComponent implements OnChanges {
       },
     ];
     this.ans = this.question.ans;
-    this.exp = this.question.explanation;
+    this.exp = this.question.exp;
   }
 
   optionChange(selectedOptions: any): void {

@@ -49,7 +49,7 @@ const topics = [
     icon: 'near_me',
   },
   {
-    name: 'Ver Todos',
+    name: 'Ver Todas',
     icon: 'grid_view',
   },
   {
@@ -89,12 +89,25 @@ export class AppComponent implements OnInit {
       this.currentQuestions = this.allQuestions.filter(
         (qn) => qn.topic === (i + 1).toString()
       );
-    } else if (i === 9) {
-      this.currentQuestions = this.allQuestions;
     } else {
-      this.currentQuestions = this.allQuestions.filter(
-        (qn) => qn.saved === 'true'
-      );
+      switch (i) {
+        case 9:
+          // Show all
+          this.currentQuestions = this.allQuestions;
+          break;
+        case 10:
+          // Show saved
+          this.currentQuestions = this.allQuestions.filter(
+            (qn) => qn.saved === 'true'
+          );
+          break;
+        case 11:
+          // Show practice test
+          this.currentQuestions = this.allQuestions.reduce(() => {
+            return [];
+          }, []);
+          break;
+      }
     }
   }
 

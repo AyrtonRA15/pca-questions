@@ -4547,7 +4547,7 @@
         },
         "414": {
             "id":"414",
-            "qn":"412.- En los cálculos de peso y balance, el peso básico vacío incluye el peso de la estructuradel avión, los motores y todo el equipo opcional instalado. El peso básico vacío también incluye:",
+            "qn":"412.- En los cálculos de peso y balance, el peso básico vacío incluye el peso de la estructura del avión, los motores y todo el equipo opcional instalado. El peso básico vacío también incluye:",
             "a":"el combustible no utilizable, los fluidos requeridos para el funcionamiento de la aeronave y todo el aceite.",
             "b":"todo el combustible utilizable, aceite, fluido hidráulico, pero no incluye el peso del piloto, los pasajeros ni el equipaje.",
             "c":"todo combustible y aceite utilizable, pero no incluye ningún equipo o instrumento de radio que haya sido instalado por alguien que no sea el fabricante.",
@@ -4558,7 +4558,7 @@
         },
         "415": {
             "id":"415",
-            "qn":"413.- Si todas las unidades de índice son positivas al realizar los cálculos de peso y balance,el datum estaría ubicado en:",
+            "qn":"413.- Si todas las unidades de índice son positivas al realizar los cálculos de peso y balance, el datum estaría ubicado en:",
             "a":"la línea central de las ruedas principales.",
             "b":"la nariz o delante del avión.",
             "c":"la línea central de la rueda de nariz o la rueda de cola, según el tipo de avión.",
@@ -4580,7 +4580,7 @@
         },
         "417": {
             "id":"417",
-            "qn":"415.- DADO: Peso A: 155 libras a 45 pulgadas después del datum. Peso B: 165 libras a 145 pulgadas después del datum. Peso C: 95 libras a 185 pulgadas después del datum. Con baseen esta información, ¿dónde se ubicaría el CG con respecto al datum?",
+            "qn":"415.- DADO: Peso A: 155 libras a 45 pulgadas después del datum. Peso B: 165 libras a 145 pulgadas después del datum. Peso C: 95 libras a 185 pulgadas después del datum. Con base en esta información, ¿dónde se ubicaría el CG con respecto al datum?",
             "a":"86.0 pulgadas.",
             "b":"116.8 pulgadas.",
             "c":"125.0 pulgadas.",
@@ -4668,7 +4668,7 @@
         },
         "425": {
             "id":"425",
-            "qn":"423.- Con respecto a la técnica requerida para una corrección de viento cruzado en eldespegue, un piloto debe usar:",
+            "qn":"423.- Con respecto a la técnica requerida para una corrección de viento cruzado en el despegue, un piloto debe usar:",
             "a":"presión de los alerones de cara al viento e iniciar la rotación a una velocidad normal tanto aviones con patín de cola y los de tren triciclo.",
             "b":"presión del timón de dirección a la derecha, presión de los alerones de cara al viento y una velocidad de rotación superior a la normal tanto en aviones con tren triciclo como en los de tren convencional.",
             "c":"timón de dirección según sea necesario para mantener el control direccional, presión de los alerones de cara al viento y una velocidad de despegue superior a la normal en los aviones de tren convencional y tren triciclo.",
@@ -4745,7 +4745,7 @@
         },
         "432": {
             "id":"432",
-            "qn":"430.- Cuando se navega RNAV basado en los sensores VOR/DME, la selección de un VORque no tiene servicio DME:",
+            "qn":"430.- Cuando se navega RNAV basado en los sensores VOR/DME, la selección de un VOR que no tiene servicio DME:",
             "a":"provocará la pérdida de la capacidad RNAV.",
             "b":"no afecta la capacidad de navegación.",
             "c":"no afecta a la navegación siempre que el GPS funcione adecuadamente.",
@@ -4899,7 +4899,7 @@
         },
         "446": {
             "id":"446",
-            "qn":"444.- Con los siguientes datos determine la dirección y velocidad del viento. urso verdadero 105°.Rumbo verdadero 085°. Velocidad verdadera (TAS) 95 nudos. Velocidad con respecto al suelo 87 nudos.",
+            "qn":"444.- Con los siguientes datos determine la dirección y velocidad del viento. Curso verdadero 105°. Rumbo verdadero 085°. Velocidad verdadera (TAS) 95 nudos. Velocidad con respecto al suelo 87 nudos.",
             "a":"020° y 32 nudos.",
             "b":"030° y 38 nudos.",
             "c":"200° y 32 nudos.",
@@ -5020,7 +5020,7 @@
         },
         "457": {
             "id":"457",
-            "qn":"455.- Para las operaciones IFR fuera de las aerovías establecidas, la parte de la ruta de vuelode un plan de vuelo IFR debe enumerar las ayudas a la navegación VOR que no estén a más de:",
+            "qn":"455.- Para las operaciones IFR fuera de las aerovías establecidas, la parte de la ruta de vuelo de un plan de vuelo IFR debe enumerar las ayudas a la navegación VOR que no estén a más de:",
             "a":"A 40 millas de distancia.",
             "b":"A 70 millas de distancia.",
             "c":"A 80 millas de distancia.",

@@ -43,26 +43,17 @@ export class TopicComponent implements OnInit {
   score = 0;
 
   questionService = inject(QuestionsService);
-
-  constructor(public dialog: MatDialog) {}
+  dialog: MatDialog = inject(MatDialog);
 
   ngOnInit(): void {
     this.totalQ = this.questions.length;
     // this.qListOrder = Array.from(Array(this.totalQ).keys());
     if (this.isRandom) {
-      // this.shuffleArrayItems(this.qListOrder);
-      this.shuffleArrayItems(this.questions);
+      // this.questions = this.questionService.shuffleQuestions(this.qListOrder);
+      this.questions = this.questionService.shuffleQuestions(this.questions);
     }
     this.ansSelected = new Array<string>(this.totalQ);
     this.updateQ();
-  }
-
-  shuffleArrayItems(array: number[]) {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
   }
 
   updateQ(i = 0): void {
