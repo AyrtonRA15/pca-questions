@@ -1,3 +1,4 @@
+/* eslint-disable no-case-declarations */
 import { Component, OnInit, inject } from '@angular/core';
 
 import { GlobalConstants } from '../global-constants';
@@ -56,6 +57,10 @@ const topics = [
     name: 'Ver Guardadas',
     icon: 'bookmark',
   },
+  {
+    name: 'Test de Prueba',
+    icon: 'quiz',
+  },
 ];
 
 @Component({
@@ -79,7 +84,33 @@ export class AppComponent implements OnInit {
     this.questionService
       .getQuestions()
       .subscribe((qns: any) => (this.allQuestions = qns));
-    // .subscribe((qns: any) => console.log(qns));
+  }
+
+  getPracticeTestQns(): Question[] {
+    const shuffledQns = this.questionService.shuffleQuestions([
+      ...this.allQuestions,
+    ]);
+    const testQns: Question[] = [];
+    const topicCount = Array(9).fill(0);
+    let topicsWith6Qns = 0;
+    for (const qn of shuffledQns) {
+      const indexTopic = Number(qn.topic) - 1;
+      if (topicCount[indexTopic] < 6) {
+        if (topicCount[indexTopic] === 5) {
+          if (topicsWith6Qns < 5) {
+            topicsWith6Qns++;
+          } else {
+            continue;
+          }
+        }
+        testQns.push(qn);
+        topicCount[indexTopic]++;
+      }
+      if (testQns.length === 50) {
+        break;
+      }
+    }
+    return testQns;
   }
 
   openTopicView(i: number): void {
@@ -93,7 +124,7 @@ export class AppComponent implements OnInit {
       switch (i) {
         case 9:
           // Show all
-          this.currentQuestions = this.allQuestions;
+          this.currentQuestions = [...this.allQuestions];
           break;
         case 10:
           // Show saved
@@ -103,9 +134,7 @@ export class AppComponent implements OnInit {
           break;
         case 11:
           // Show practice test
-          this.currentQuestions = this.allQuestions.reduce(() => {
-            return [];
-          }, []);
+          this.currentQuestions = this.getPracticeTestQns();
           break;
       }
     }

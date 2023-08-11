@@ -80,7 +80,7 @@
         },
         "8": {
             "id":"8",
-            "qn":"8.- Mientras se mantiene un ángulo de banqueo y altitud constante en un giro coordinado,un aumento de la velocidad del aire:",
+            "qn":"8.- Mientras se mantiene un ángulo de banqueo y altitud constante en un giro coordinado, un aumento de la velocidad del aire:",
             "a":"Incrementa la tasa de giro resultante y disminuye el factor de carga.",
             "b":"Disminuye la tasa de giro resultante y no cambia el factor de carga.",
             "c":"Incrementa la tasa de giro resultante y no cambia el factor de carga.",
@@ -718,7 +718,7 @@
         },
         "66": {
             "id":"66",
-            "qn":"66.- Si la velocidad del aire se disminuye de 98 nudos a 85 nudos durante un giro coordinadoy nivelado de 45 grados, el factor de carga:",
+            "qn":"66.- Si la velocidad del aire se disminuye de 98 nudos a 85 nudos durante un giro coordinado y nivelado de 45 grados, el factor de carga:",
             "a":"Será el mismo, pero el radio del giro disminuirá.",
             "b":"Disminuirá y la tasa de giro decrecerá.",
             "c":"Será el mismo, pero el radio de giro aumentará.",
@@ -939,7 +939,7 @@
         },
         "86": {
             "id":"86",
-            "qn":"86.- La razón por la cual hay variación en el paso geométrico (torsión) a lo largo de una palade una hélice es que:",
+            "qn":"86.- La razón por la cual hay variación en el paso geométrico (torsión) a lo largo de una pala de una hélice es que:",
             "a":"Permite un ángulo de incidencia relativamente constante a lo largo de su longitud en crucero.",
             "b":"Evita que la parte de la pala más cercana al buje de la hélice entre en perdida durante el crucero.",
             "c":"Permite un ángulo de ataque relativamente constante a lo largo de su longitud cuando está en vuelo de crucero.",
@@ -3645,7 +3645,7 @@
         },
         "332": {
             "id":"332",
-            "qn":"330.- De las siguientes afirmaciones, ¿cuál es correcta en relación con la turbulencia asociadaa las tormentas eléctricas?",
+            "qn":"330.- De las siguientes afirmaciones, ¿cuál es correcta en relación con la turbulencia asociada a las tormentas eléctricas?",
             "a":"Fuera de la nube, la turbulencia de cizalladura puede encontrarse a 50 millas lateralmente de una tormenta severa.",
             "b":"La turbulencia de cizalladura sólo se encuentra en el interior de los cumulonimbos o en un radio de 8 kilómetros de estos.",
             "c":"Fuera de la nube, la turbulencia de cizalladura puede encontrarse a 20 millas lateralmente de una tormenta severa.",
@@ -4362,7 +4362,7 @@
             "id":"397",
             "qn":"395.- El valor mínimo de cortantes de viento crítico para una posible turbulencia moderada o severa es:",
             "a":"4 nudos por cada 1,000 pies.",
-            "b":"6 mudos por cada 1,000 pies.",
+            "b":"6 nudos por cada 1,000 pies.",
             "c":"8 nudos por cada 1,000 pies.",
             "ans":"b",
             "exp":"Las cortantes de viento crítico para una posible turbulencia es de 6 nudos por cada 1,000 pies.",
@@ -4393,7 +4393,7 @@
         },
         "400": {
             "id":"400",
-            "qn":"398.- La turbulencia que se encuentre por encima de los 15,000 pies AGL no asociada con nubosidad cuculiforme, incluidas las tormentas eléctricas, debe informarse como:",
+            "qn":"398.- La turbulencia que se encuentre por encima de los 15,000 pies AGL no asociada con nubosidad cumuliforme, incluidas las tormentas eléctricas, debe informarse como:",
             "a":"turbulencia severa.",
             "b":"turbulencia de aire claro.",
             "c":"turbulencia convectiva.",

@@ -36,15 +36,15 @@ export class QuestionComponent implements OnChanges {
     this.options = [
       {
         id: 'a',
-        text: this.question.a,
+        text: `A. ${this.question.a}`,
       },
       {
         id: 'b',
-        text: this.question.b,
+        text: `B. ${this.question.b}`,
       },
       {
         id: 'c',
-        text: this.question.c,
+        text: `C. ${this.question.c}`,
       },
     ];
     this.ans = this.question.ans;
